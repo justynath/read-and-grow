@@ -24,6 +24,15 @@ header {
 h1 {
     font-family: 'Protest Riot', sans-serif;
 }
+
+#logo {
+    color: #494D5F;
+    margin: 5px 15px;
+}
+
+a {
+    text-decoration: none;
+}
 /* Main content */
 main {
     background-color: lightgreen;
