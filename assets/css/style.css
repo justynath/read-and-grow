@@ -1,3 +1,6 @@
+/* google fonts import */
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin&family=Noto+Sans+JP:wght@300&display=swap');
+
 /* Asterisk wildcard selector to override default browser styles */
 * {
     padding: 0;
@@ -11,6 +14,8 @@ body {
     display: flex;
     flex-direction: column;
     color: #494D5F;
+   /* font-family: 'Libre Franklin', sans-serif; */
+    font-family: 'Noto Sans JP', sans-serif;
 }
 
 /*  Header */
