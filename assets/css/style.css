@@ -1,5 +1,5 @@
 /* google fonts import */
-@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin&family=Noto+Sans+JP:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,300&family=Protest+Riot&display=swap');
 
 /* Asterisk wildcard selector to override default browser styles */
 * {
@@ -14,15 +14,16 @@ body {
     display: flex;
     flex-direction: column;
     color: #494D5F;
-   /* font-family: 'Libre Franklin', sans-serif; */
-    font-family: 'Noto Sans JP', sans-serif;
+    font-family: 'Nunito Sans', sans-serif;
 }
 
 /*  Header */
 header {
     background-color: lightblue;
 } 
-
+h1 {
+    font-family: 'Protest Riot', sans-serif;
+}
 /* Main content */
 main {
     background-color: lightgreen;
