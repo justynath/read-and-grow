@@ -63,18 +63,20 @@ main {
 
 #intro {
     display: flex;
+    flex-direction: row;
     justify-content: space-between;
     align-items: center;
 }
 
+
 #book-club {
     /*flex-shrink: 2;*/
-    flex-shrink: 2;
+    flex-grow: 1;
+    width: 60%;
 }
 
 #welcome {
-    margin: 3rem;
-    flex-basis: 60%;  
+    margin: 2rem;
     text-align: justify;
     font-size: 0.8em;
     line-height: 300%;
@@ -95,3 +97,12 @@ footer {
 #social-networks i {
     font-size: 130%;
     color: #51504f;
+
+/* Media query: tablets and larger (768px and up) 
+@media screen and (min-width: 768px) {
+    /* Introduction page 
+    #intro {
+        flex-direction: row;
+    }
+}
+*/
