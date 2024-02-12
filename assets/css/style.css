@@ -1,4 +1,4 @@
-/* google fonts import */
+/* Google fonts import */
 @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,300&family=Protest+Riot&display=swap');
 
 /* Asterisk wildcard selector to override default browser styles */
@@ -15,6 +15,7 @@ body {
     flex-direction: column;
     color: #0d0c0c;
     font-family: 'Nunito Sans', sans-serif;
+  
 }
 
 /*  Header */
@@ -31,7 +32,26 @@ header a {
     color: #0d0c0c;
  }
 
+#menu {
+    font-size: 105%;
+    font-weight: 900;
+}
 
+ nav a {
+    letter-spacing: 1px;
+    text-decoration: none;
+    color: #0d0c0c;
+}
+
+nav li {
+    margin-bottom: 1%;
+    margin-left: 1em;
+    list-style-type: none;
+}
+
+.active {
+    border-bottom: 1px solid #51504f;
+}
 
 /* Main content */
 main {
