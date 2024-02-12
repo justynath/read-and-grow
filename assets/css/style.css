@@ -23,7 +23,7 @@ header {
     background-color: #ffffff;
     margin: 5px 15px;    
 } 
-h1 {
+h1, h2, h3 {
     font-family: 'Protest Riot', sans-serif;
 }
 
@@ -60,6 +60,25 @@ main {
     flex: 1 0 auto;
 }
 
+
+#intro {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#book-club {
+    /*flex-shrink: 2;*/
+    flex-shrink: 2;
+}
+
+#welcome {
+    margin: 3rem;
+    flex-basis: 60%;  
+    text-align: justify;
+    font-size: 0.8em;
+    line-height: 300%;
+}
 /* Footer */
 footer {
     background-color: #65cbfc;
