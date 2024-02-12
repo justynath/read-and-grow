@@ -55,12 +55,24 @@ nav li {
 
 /* Main content */
 main {
-    background-color: lightgreen;
+    background-color: #bcbcbd;
     /* Make main element push footer down */
     flex: 1 0 auto;
 }
 
 /* Footer */
 footer {
-    background-color: yellow;
+    background-color: #65cbfc;
 }
+
+#social-networks {
+    text-align: center;
+    padding: 15px 0;
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+}
+
+#social-networks i {
+    font-size: 130%;
+    color: #51504f;
