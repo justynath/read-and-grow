@@ -13,26 +13,26 @@ body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-    color: #494D5F;
+    color: #0d0c0c;
     font-family: 'Nunito Sans', sans-serif;
 }
 
 /*  Header */
 header {
-    background-color: lightblue;
+    background-color: #ffffff;
+    margin: 5px 15px;    
 } 
 h1 {
     font-family: 'Protest Riot', sans-serif;
 }
 
-#logo {
-    color: #494D5F;
-    margin: 5px 15px;
-}
-
-a {
+header a {
     text-decoration: none;
-}
+    color: #0d0c0c;
+ }
+
+
+
 /* Main content */
 main {
     background-color: lightgreen;
