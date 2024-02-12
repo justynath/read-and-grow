@@ -81,6 +81,13 @@ main {
     font-size: 0.8em;
     line-height: 300%;
 }
+
+/* Reasons */
+
+#reasons {
+    background-color: #949f5c;
+    padding: 1rem;
+}
 /* Footer */
 footer {
     background-color: #65cbfc;
