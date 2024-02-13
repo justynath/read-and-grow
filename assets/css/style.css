@@ -21,10 +21,13 @@ body {
 /*  Header */
 header {
     background-color: #ffffff;
-    padding: 20px 30px;    
+    padding: 5px 10px;    
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
+    position: fixed;
+    z-index: 99;
+    width: 100%;
 
 } 
 h1, h2, h3 {
@@ -38,17 +41,12 @@ header a {
     color: #0d0c0c;
  }
 
- #logo {
-    font-size: 200%;
- }
-
 #menu {
     font-size: 105%;
     /* HELP: does not work*/
     font-weight: 600;
-    display: flex;
-    padding: 1em;
-    justify-content: flex-end;
+    display: block;
+    padding: 0 1em;
 }
 
  nav a {
@@ -58,14 +56,41 @@ header a {
 }
 
 nav li {
-    margin-bottom: 1%;
-    margin-left: 1em;
+    margin-bottom: 3%;
+   /* margin-left: 1em; */
     list-style-type: none;
 }
 
 .active {
     border-bottom: 1px solid #51504f;
 }
+
+
+/* Navbar styles with dropdown toggle */
+nav {
+    position: absolute;
+    background-color: #ffffff;
+    width: 100%;
+    left: 0;
+    padding: 0 1rem;
+    box-shadow: 0 2px 2px #51504f;
+    display: none;
+    top: 100%;
+}
+
+/* Nav toggle */
+#nav-toggle:checked~nav {
+    display: block;
+}
+
+#nav-toggle {
+    display: none;
+}
+
+.nav-toggle-label {
+    font-size: 2rem;
+}
+
 /*
 nav {
     display: flex;
@@ -77,6 +102,8 @@ main {
     background-color: #bcbcbd;
     /* Make main element push footer down */
     flex: 1 0 auto;
+    /* Add margin at the top to prevent content from being covered by the header */
+    margin-top: 47px;
 }
 
 
@@ -124,11 +151,11 @@ footer {
     font-size: 130%;
     color: #51504f;
 
-/* Media query: tablets and larger (768px and up) 
+/* Media query: tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
-    /* Introduction page 
-    #intro {
-        flex-direction: row;
-    }
+    #menu {
+        display: flex;
+        justify-content: flex-end;
+
 }
 */
