@@ -46,11 +46,11 @@ header a {
     /* HELP: does not work*/
     font-weight: 600;
     display: block;
-    padding: 0 1em;
+    padding-left: 1em;
 }
 
  nav a {
-    letter-spacing: 1px;
+    /* letter-spacing: 1px; */
     text-decoration: none;
     color: #0d0c0c;
 }
@@ -150,12 +150,37 @@ footer {
 #social-networks i {
     font-size: 130%;
     color: #51504f;
-
+}
 /* Media query: tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
+
+     /* Header */
+    nav {
+        display: block;
+        position: relative;
+        box-shadow: none;
+        width: fit-content;
+        padding-right: 1rem;
+    }
+
     #menu {
         display: flex;
-        justify-content: flex-end;
+    }
+
+    #menu>li {
+        padding-left: 1rem;
+
+    }
+
+    .nav-toggle-label {
+         display: none;
+    }
+
+    #logo {
+        font-size: 120%;
+        line-height: 75px;
+        margin: 0 1rem;
+}
 
 }
 */
