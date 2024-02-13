@@ -93,7 +93,7 @@ nav {
 
 /* Main content */
 main {
-    background-color: #bcbcbd;
+    background-color: #ffffff;
     /* Make main element push footer down */
     flex: 1 0 auto;
     /* Add margin at the top to prevent content from being covered by the header */
@@ -107,7 +107,7 @@ main {
 
 
 #book-club-image {
-    height: 100%;
+    width: 100%;
 }
 
 #welcome {
