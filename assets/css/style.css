@@ -21,12 +21,16 @@ body {
 /*  Header */
 header {
     background-color: #ffffff;
-    padding: 10px 15px;    
+    padding: 20px 30px;    
     display: flex;
     justify-content: space-between;
+    align-items: flex-end;
+
 } 
 h1, h2, h3 {
     font-family: 'Protest Riot', sans-serif;
+    /* HELP: does not work*/
+    font-weight: 150;
 }
 
 header a {
@@ -34,11 +38,16 @@ header a {
     color: #0d0c0c;
  }
 
+ #logo {
+    font-size: 200%;
+ }
+
 #menu {
     font-size: 105%;
-    font-weight: 900;
+    /* HELP: does not work*/
+    font-weight: 600;
     display: flex;
-    padding: 5px 15px; 
+    padding: 1em;
     justify-content: flex-end;
 }
 
