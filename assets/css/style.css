@@ -21,7 +21,9 @@ body {
 /*  Header */
 header {
     background-color: #ffffff;
-    margin: 5px 15px;    
+    padding: 10px 15px;    
+    display: flex;
+    justify-content: space-between;
 } 
 h1, h2, h3 {
     font-family: 'Protest Riot', sans-serif;
@@ -35,6 +37,9 @@ header a {
 #menu {
     font-size: 105%;
     font-weight: 900;
+    display: flex;
+    padding: 5px 15px; 
+    justify-content: flex-end;
 }
 
  nav a {
@@ -52,7 +57,12 @@ nav li {
 .active {
     border-bottom: 1px solid #51504f;
 }
-
+/*
+nav {
+    display: flex;
+    justify-content: space-around;
+}
+*/
 /* Main content */
 main {
     background-color: #bcbcbd;
