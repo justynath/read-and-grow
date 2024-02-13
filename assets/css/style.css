@@ -91,12 +91,6 @@ nav {
     font-size: 2rem;
 }
 
-/*
-nav {
-    display: flex;
-    justify-content: space-around;
-}
-*/
 /* Main content */
 main {
     background-color: #bcbcbd;
@@ -108,24 +102,19 @@ main {
 
 
 #intro {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
+    display: block;
 }
 
 
-#book-club {
-    /*flex-shrink: 2;*/
-    flex-grow: 1;
-    width: 60%;
+#book-club-image {
+    height: 100%;
 }
 
 #welcome {
-    margin: 2rem;
-    text-align: justify;
+    margin: 1rem;
+    text-align: center;
     font-size: 0.8em;
-    line-height: 300%;
+    line-height: 150%;
 }
 
 /* Reasons */
