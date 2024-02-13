@@ -11,6 +11,9 @@
 /* General styles */
 body {
     min-height: 100vh;
+/* HELP: I still need to scroll horizontally */
+    max-width: 100%;
+    overflow-x: hidden;
     display: flex;
     flex-direction: column;
     color: #0d0c0c;
@@ -97,19 +100,21 @@ main {
     /* Make main element push footer down */
     flex: 1 0 auto;
     /* Add margin at the top to prevent content from being covered by the header */
-    margin-top: 47px;
+    margin-top: 50px;
 }
 
 
 #intro {
-    display: block;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
 }
 
 
 #book-club-image {
-    height: 400px;
-    object-fit: cover;
-    object-position: 100% 0;
+    width: 100%;
+    /* HELP: I want to disply middle part of the image on the mobile */
 
 }
 
@@ -123,8 +128,13 @@ main {
 /* Reasons */
 
 #reasons {
-    background-color: #949f5c;
+    background-color: #bcbcbd;
     padding: 1rem;
+    font-size: 90%;
+}
+
+#reasons hr {
+    color: #51504f
 }
 /* Footer */
 footer {
