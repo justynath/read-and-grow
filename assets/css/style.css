@@ -147,7 +147,12 @@ main {
 
 
 /* Current Reading Page */
-.book-cover {
+
+#new-book {
+    display: flex;
+    justify-content: space-around;
+}
+.book-cover img {
     margin: 20px;
     box-shadow: 2px 2px 2px #51504f;
     border: 1px solid #4488ac;
