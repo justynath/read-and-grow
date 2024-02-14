@@ -11,14 +11,12 @@
 /* General styles */
 body {
     min-height: 100vh;
-/* HELP: I still need to scroll horizontally */
     max-width: 100%;
     overflow-x: hidden;
     display: flex;
     flex-direction: column;
     color: #0d0c0c;
     font-family: 'Nunito Sans', sans-serif;
-  
 }
 
 /*  Header */
@@ -36,7 +34,7 @@ header {
 h1, h2, h3 {
     font-family: 'Protest Riot', sans-serif;
     /* HELP: does not work*/
-    font-weight: 150;
+    font-weight: 100;
 }
 
 header a {
@@ -100,15 +98,13 @@ main {
     /* Make main element push footer down */
     flex: 1 0 auto;
     /* Add margin at the top to prevent content from being covered by the header */
-    margin-top: 75px;
+    margin-top: 80px;
 }
 
 
 #intro {
     display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    flex-wrap: wrap;
+    flex-direction: column;
     background-color: #65cbfc;
 }
 
@@ -121,8 +117,12 @@ main {
     text-align: center;
     font-size: 80%;
     line-height: 200%;
-    align-content: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
+
 
 /* About Us */
 /*
@@ -219,8 +219,18 @@ footer {
     }
 
     /* Inrtoduction */
+   
+    #intro {
+        flex-direction: row;
+    }
+
+    #book-club-image {
+        width: 60%;
+    }
+    
     #welcome {
         font-size: 1.1em;
+        width: 40%;
     }
 }
 
