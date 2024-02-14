@@ -100,7 +100,7 @@ main {
     /* Make main element push footer down */
     flex: 1 0 auto;
     /* Add margin at the top to prevent content from being covered by the header */
-    margin-top: 50px;
+    margin-top: 75px;
 }
 
 
@@ -108,25 +108,25 @@ main {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    flex-wrap: wrap;
+    /*flex-wrap: wrap;*/
+    background-color: #65cbfc;
 }
-
 
 #book-club-image {
     width: 100%;
-    /* HELP: I want to disply middle part of the image on the mobile */
-
 }
 
 #welcome {
-    margin: 1rem;
+    margin: 2rem;
     text-align: center;
     font-size: 0.8em;
     line-height: 150%;
     text-align: justify;
+    /* position: relative;
+    align-content: center; */
 }
 
-/* Reasons */
+/* About Us */
 /*
 #mission {
     background-color: #bcbcbd;
@@ -156,6 +156,7 @@ main {
     padding: 2rem;
     text-align: justify;
 }
+
 /* Footer */
 footer {
     background-color: #65cbfc;
@@ -173,6 +174,7 @@ footer {
     font-size: 130%;
     color: #51504f;
 }
+
 /* Media query: tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
 
