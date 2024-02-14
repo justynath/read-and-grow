@@ -160,6 +160,14 @@ main {
     text-align: justify;
 }
 
+#questions {
+    margin: 10px 0;
+    padding: 30px;
+    font-size: 0.9em;
+    background-color: #bcbcbc;
+  
+}
+
 /* Footer */
 footer {
     background-color: #65cbfc;
