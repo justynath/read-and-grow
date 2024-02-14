@@ -123,6 +123,7 @@ main {
     text-align: center;
     font-size: 0.8em;
     line-height: 150%;
+    text-align: justify;
 }
 
 /* Reasons */
@@ -142,6 +143,18 @@ main {
     background-color: #bcbcbc;
     font-size: 80%;
     padding: 20px;
+}
+
+
+/* Current Reading Page */
+.book-cover {
+    margin: 20px;
+    box-shadow: 2px 2px 2px #51504f;
+    border: 1px solid #4488ac;
+}
+.book-info {
+    padding: 2rem;
+    text-align: justify;
 }
 /* Footer */
 footer {
