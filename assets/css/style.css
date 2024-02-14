@@ -68,7 +68,7 @@ nav li {
     border-bottom: 1px solid #51504f;
 }
 
-
+/* I followed the nav bar toggle code structure from Love Running project for this section */
 /* Navbar styles with dropdown toggle */
 nav {
     position: absolute;
@@ -126,15 +126,20 @@ main {
 }
 
 /* Reasons */
-
-#reasons {
+/*
+#mission {
     background-color: #bcbcbd;
     padding: 1rem;
     font-size: 90%;
 }
 
-#reasons hr {
+#mission hr {
     color: #51504f
+}
+*/
+
+#about-us {
+
 }
 /* Footer */
 footer {
