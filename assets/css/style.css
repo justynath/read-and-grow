@@ -149,9 +149,10 @@ main {
 #new-book {
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
 }
 .book-cover img {
-    margin: 20px;
+    margin: 60px;
     box-shadow: 2px 2px 2px #51504f;
     border: 1px solid #4488ac;
 }
