@@ -257,6 +257,23 @@ footer {
         font-size: 1em;
         padding: 40px;
     }
+    #new-book {
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    .book-info {
+        font-size: 0.9rem;
+        width: 60%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    #questions {
+        font-size: 1rem;
+    }
+    #questions li {
+        margin-bottom: 5px;
+    }
 }
 
 /* Large devices (laptops and desktops, 992px and up) */
