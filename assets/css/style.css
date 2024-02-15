@@ -104,8 +104,8 @@ main {
     background-color: #65cbfc;
 }
 
-#book-club-image {
-    width: 100%;
+#book-club-image img {
+    height: 100%;
 }
 
 #welcome {
@@ -139,6 +139,10 @@ main {
     padding: 20px;
     line-height: 150%;
     text-align: justify;
+}
+
+#about-us h3 {
+    margin-bottom: 6px;
 }
 
 
