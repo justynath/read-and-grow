@@ -45,7 +45,61 @@
     <!-- Main content -->
     <main>
     <section id="signup">
-      <form action="https://formdump.codeinstitute.net" id="sighup-form" method="post"></form>
+      <form action="https://formdump.codeinstitute.net" id="sighup-form" method="post">
+      <h2>Read and Grow with Us!</h2>
+      <label for="first_name">First Name</label>
+      <input type="text" name="first_name" id="first_name" class="text-input" required>
+      <br>
+      <label for="last_name">Last Name</label>
+      <input type="text" name="last_name" id="last_name" class="text-input" required>
+      <br>
+      <label for="email_address">Email address</label>
+      <input type="email" name="email_address" id="email_address" class="text-input" required>
+      <br>
+      <h3>Interest (select maximum 3)</h3>
+      <div class="radio-buttons">
+        <div>
+          <label for="history">History</label>
+          <input type="radio" name="running_preference" id="history" value="history" required checked>
+        </div>
+        <div>
+          <label for="biography">Biography/Autobiography</label>
+          <input type="radio" name="running_preference" id="biography" value="v" required>
+        </div>
+        <div>
+          <label for="science">Science and Nature</label>
+          <input type="radio" name="running_preference" id="science" value="science" required>
+        </div>
+        <div>
+          <label for="psychology">Psychology and Self-Help</label>
+          <input type="radio" name="running_preference" id="psychology" value="psychology" required>
+        </div>
+        <div>
+          <label for="social">Politics and Social Issues</label>
+          <input type="radio" name="running_preference" id="social" value="social" required>
+        </div>
+        <div>
+          <label for="finance">Economics and Finance</label>
+          <input type="radio" name="running_preference" id="finance" value="finance" required>
+        </div>
+        <div>
+          <label for="travel">Travel and Adventure</label>
+          <input type="radio" name="running_preference" id="travel" value="travel" required>
+        </div>
+        <div>
+          <label for="technology">Technology</label>
+          <input type="radio" name="running_preference" id="technology" value="technology" required>
+        </div>
+        <div>
+          <label for="crime">True Crime</label>
+          <input type="radio" name="running_preference" id="crime" value="crime" required>
+        </div>
+      </div>
+      <div>
+        <label for="suggest"><h3>Suggest a book (optional)</h3></label>
+        <input type="text" name="suggest" id="suggest" class="text-input">
+      </div>
+     </form>
     </section>
     </main>
     
