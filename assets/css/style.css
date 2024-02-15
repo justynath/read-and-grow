@@ -33,8 +33,6 @@ header {
 } 
 h1, h2, h3 {
     font-family: 'Protest Riot', sans-serif;
-    /* HELP: does not work*/
-    font-weight: 100;
 }
 
 header a {
@@ -44,8 +42,6 @@ header a {
 
 #menu {
     font-size: 105%;
-    /* HELP: does not work*/
-    font-weight: 600;
     display: block;
     padding-left: 1em;
 }
@@ -98,7 +94,7 @@ main {
     /* Make main element push footer down */
     flex: 1 0 auto;
     /* Add margin at the top to prevent content from being covered by the header */
-    margin-top: 80px;
+    margin-top: 52px;
 }
 
 
@@ -216,6 +212,11 @@ footer {
         font-size: 120%;
         line-height: 75px;
         margin: 0 1rem;
+    }
+
+    main {
+       /* Add margin at the top to prevent content from being covered by the header */
+        margin-top: 84px;
     }
 
     /* Inrtoduction */
