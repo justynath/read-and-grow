@@ -285,6 +285,9 @@ footer {
     #questions li {
         margin-bottom: 5px;
     }
+
+    #signup {
+        height: 100vh;
 }
 
 /* Large devices (laptops and desktops, 992px and up) */
