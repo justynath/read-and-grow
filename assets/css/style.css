@@ -146,13 +146,23 @@ main {
 
 #new-book {
     display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
+    flex-direction: column;
+    /* justify-content: space-around; */
+    /* flex-wrap: wrap; */
+    /* overflow: auto; */
+}
+
+.book-cover {
+    margin: 60px 100px 40px 60px;
 }
 .book-cover img {
-    margin: 60px;
+    /* margin: 60px; */
+    /* border: 50px; */
     box-shadow: 2px 2px 2px #51504f;
     border: 1px solid #4488ac;
+    width: 100%;
+    height: 100%;
+    /* position: relative; */
 }
 .book-info {
     padding: 2rem;
