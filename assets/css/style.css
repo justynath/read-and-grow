@@ -187,6 +187,13 @@ main {
     margin-bottom: 3px;
 }
 
+/* Sign up page */
+#signup {
+    background-image: url("../images/stack-of-books.jpg"); 
+    background-size: cover;
+    /* background-color: #4488ac; */
+}
+
 
 /* Footer */
 footer {
@@ -203,7 +210,7 @@ footer {
 
 #social-networks i {
     font-size: 130%;
-    color: #51504f;
+    color: #0d0c0c;
 }
 
 /* Media query: tablets and larger (768px and up) */
