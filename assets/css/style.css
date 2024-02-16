@@ -94,7 +94,7 @@ main {
     /* Make main element push footer down */
     flex: 1 0 auto;
     /* Add margin at the top to prevent content from being covered by the header */
-    margin-top: 52px;
+    margin-top: 53px;
 }
 
 
@@ -192,12 +192,13 @@ main {
     background-image: url("../images/stack-of-books.jpg"); 
     background-size: cover;
     /* background-color: #4488ac; */
+    padding: 20px;
 }
 
 #signup-form {
     color: #0d0c0c;
     background-color: rgba(30, 139, 195, 0.4);
-    padding: 30px;
+    padding: 20px;
 }
 /* Footer */
 footer {
