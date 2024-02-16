@@ -31,7 +31,7 @@ header {
     width: 100%;
 
 } 
-h1, h2, h3 {
+h1, h2, h3, h4 {
     font-family: 'Protest Riot', sans-serif;
 }
 
@@ -194,7 +194,11 @@ main {
     /* background-color: #4488ac; */
 }
 
-
+#signup-form {
+    color: #0d0c0c;
+    background-color: rgba(30, 139, 195, 0.4);
+    padding: 30px;
+}
 /* Footer */
 footer {
     background-color: #65cbfc;
