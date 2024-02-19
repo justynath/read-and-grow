@@ -276,6 +276,8 @@ main {
     font-size: 100%;
     background-color: #ef9329;
     color: #0d0c0c;
+    border-color: #0d0c0c;
+    box-shadow: 2px 2px 2px #51504f;
 }
 
 /* Footer */
@@ -400,6 +402,4 @@ footer {
     #menu a:hover {
         border-bottom: 1px solid #51504f;
     }
-
-
 }
