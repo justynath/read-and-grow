@@ -197,7 +197,7 @@ main {
     flex-grow: 1;
 }
 
-#signup > label {
+#signup-form > label {
     display: block;
 }
 
