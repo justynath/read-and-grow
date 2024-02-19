@@ -143,33 +143,30 @@ main {
 #testimonials h2 {
     display: none;
 }
-#quotes {
+.quotes {
     display: flex;
     flex-wrap: wrap;
     }
 
-#quotes div {
+.quotes div {
     color: #0d0c0c;
     padding: 30px;
     text-align: center;
-    flex-basis: 250px;
+    flex-basis: auto;
     flex-grow: 1;
     margin: auto;
+    max-width: 300px;
+    max-height: 300px;
     }
-/* #quotes-image {
-    border-radius: 50%;
-    max-width: 250px;
-    max-height: 250px;
-}  */
+
 #quotes-image-1 {
     background: url('../images/man-reading.jpg') no-repeat top center / cover;
     height: 90vw;
     width: 90vw;
     /* Makes the square image into a circle */
     border-radius: 50%;
-    max-width: 200px;
-    max-height: 200px;
-    /* object-position: 75% 80%; */
+    max-width: 150px;
+    max-height: 150px;
 }
 
 #quotes-image-2 {
@@ -178,8 +175,8 @@ main {
     width: 90vw;
     /* Makes the square image into a circle */
     border-radius: 50%;
-    max-width: 200px;
-    max-height: 200px;
+    max-width: 150px;
+    max-height: 150px;
 }
 
 /* Current Reading Page */
@@ -403,4 +400,5 @@ footer {
     #menu a:hover {
         border-bottom: 1px solid #51504f;
     }
+
 }
