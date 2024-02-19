@@ -162,7 +162,7 @@ main {
 
 .book-cover {
     /* margin: 60px 120px 20px 60px; */
-    margin: 5% 40% 3% 60px;
+    margin: 10% 40% 3% 60px;
 }
 
 .book-cover img {
@@ -331,20 +331,22 @@ footer {
         width: 50%;
     }
 
+    .book-cover img {
+        max-width: 240px;
+        margin-left: 10%;
+    }
+
     #questions {
         font-size: 1.1rem;
         width: 50%;
-    }
-
-    .book-cover {
-        flex-shrink: 2;
+        margin: auto;
     }
 
     .book-info {
         font-size: 1rem;
         align-items: center;
     }
-    
+
     #questions li {
         margin-bottom: 5px;
     }
