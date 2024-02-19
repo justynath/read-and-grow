@@ -192,8 +192,13 @@ main {
     background-image: url("../images/stack-of-books.jpg"); 
     background-size: cover;
     /* background-color: #4488ac; */
-    height: 100vh;
+    /* height: 100vh; */
     padding: 20px;
+    flex-grow: 1;
+}
+
+#signup > label {
+    display: block;
 }
 
 #signup h1 {
