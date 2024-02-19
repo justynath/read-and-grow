@@ -401,4 +401,14 @@ footer {
         border-bottom: 1px solid #51504f;
     }
 
+
+}
+
+@media (min-width: 1281px) {
+    #quotes-image-1 {
+        order: 1;
+    }
+    #quotes-image-2 {
+        order: 1;
+    }
 }
