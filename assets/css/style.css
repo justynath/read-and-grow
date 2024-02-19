@@ -121,17 +121,6 @@ main {
 
 
 /* About Us */
-/*
-#mission {
-    background-color: #bcbcbd;
-    padding: 1rem;
-    font-size: 90%;
-}
-
-#mission hr {
-    color: #51504f
-}
-*/
 
 #about-us {
     background-color: #ffffff;
@@ -145,6 +134,25 @@ main {
     margin-bottom: 6px;
 }
 
+/* Testimonials */
+
+#testimonials {
+    padding: 10px;
+}
+#quotes {
+    /* background: url('../images/reading-books-2.jpg') no-repeat center/cover; */
+    display: flex;
+    flex-wrap: wrap;
+    }
+
+#quotes div {
+    color: #0d0c0c;
+        /* background-color:rgba(30, 139, 195, 0.4); */
+    padding: 10px;
+    text-align: center;
+    flex-basis: 300px;
+    flex-grow: 1;
+    }
 
 /* Current Reading Page */
 
