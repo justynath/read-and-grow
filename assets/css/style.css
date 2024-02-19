@@ -192,6 +192,7 @@ main {
     background-image: url("../images/stack-of-books.jpg"); 
     background-size: cover;
     /* background-color: #4488ac; */
+    height: 100vh;
     padding: 20px;
 }
 
@@ -200,6 +201,7 @@ main {
     background-color: rgba(30, 139, 195, 0.4);
     padding: 20px;
 }
+
 /* Footer */
 footer {
     background-color: #65cbfc;
@@ -290,11 +292,7 @@ footer {
     #questions li {
         margin-bottom: 5px;
     }
-
-    #signup {
-        height: 100vh;
 }
-
 /* Large devices (laptops and desktops, 992px and up) */
 @media screen and (min-width: 992px) {
     #menu a:hover {
