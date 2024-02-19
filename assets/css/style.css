@@ -210,13 +210,32 @@ main {
 }
 
 #signup h3 {
-    margin: 4px 0 3px;
+    margin: 5px 0 5px;
 }
 
 #signup-form {
     color: #0d0c0c;
     background-color: rgba(30, 139, 195, 0.4);
     padding: 20px;
+}
+
+.text-input {
+    background: #ffffff;
+    color: #0d0c0d;
+    width: 90%;
+    height: 20px;
+    margin: 1px 0;
+    border: 1px solid #51504f;
+    border-radius: 2px;
+    /* padding: 0 5px; */
+}
+#join-button {
+    margin-top: 10px;
+    border-radius: 2px;
+    padding: 5px 10px;
+    font-size: 100%;
+    background-color: #ef9329;
+    color: #0d0c0c;
 }
 
 /* Footer */
