@@ -156,16 +156,22 @@ main {
     /* overflow: auto; */
 }
 
-.book-cover {
-    margin: 60px 120px 20px 60px;
+#current-reading > h1 {
+    display: none;
 }
+
+.book-cover {
+    /* margin: 60px 120px 20px 60px; */
+    margin: 5% 40% 3% 60px;
+}
+
 .book-cover img {
     /* margin: 60px; */
     /* border: 50px; */
     box-shadow: 3px 3px 3px #51504f;
     border: 1px solid #4488ac;
-    width: 100%;
-    height: 100%;
+    /* width: 100%; */
+    /* height: 100%; */
     /* position: relative; */
 }
 .book-info {
@@ -194,7 +200,7 @@ main {
     /* background-position: 25%; */
     /* background-color: #4488ac; */
     /* height: 100vh; */
-    padding: 20px;
+    padding: 30px;
     flex-grow: 1;
 }
 
@@ -312,20 +318,33 @@ footer {
         font-size: 1em;
         padding: 40px;
     }
-    #new-book {
+    /* #new-book { 
         flex-direction: row;
         justify-content: space-around;
-    }
-    .book-info {
-        font-size: 0.9rem;
-        width: 60%;
+    } */
+
+    #current-reading {
         display: flex;
-        justify-content: center;
+    }
+
+    #new-book {
+        width: 50%;
+    }
+
+    #questions {
+        font-size: 1.1rem;
+        width: 50%;
+    }
+
+    .book-cover {
+        flex-shrink: 2;
+    }
+
+    .book-info {
+        font-size: 1rem;
         align-items: center;
     }
-    #questions {
-        font-size: 1rem;
-    }
+    
     #questions li {
         margin-bottom: 5px;
     }
