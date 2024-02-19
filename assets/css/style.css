@@ -150,7 +150,7 @@ main {
 
 #quotes div {
     color: #0d0c0c;
-    padding: 10px;
+    padding: 30px;
     text-align: center;
     flex-basis: 250px;
     flex-grow: 1;
@@ -162,17 +162,18 @@ main {
     max-height: 250px;
 }  */
 #quotes-image-1 {
-    background: url('../images/reading-books.jpg') no-repeat top center / cover;
+    background: url('../images/man-reading.jpg') no-repeat top center / cover;
     height: 90vw;
     width: 90vw;
     /* Makes the square image into a circle */
     border-radius: 50%;
     max-width: 200px;
     max-height: 200px;
+    /* object-position: 75% 80%; */
 }
 
 #quotes-image-2 {
-    background: url('../images/holding-books.jpg') no-repeat top center / cover;
+    background: url('../images/woman-reading.jpg') no-repeat top center / cover;
     height: 90vw;
     width: 90vw;
     /* Makes the square image into a circle */
