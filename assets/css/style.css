@@ -191,6 +191,7 @@ main {
 #signup {
     background-image: url("../images/stack-of-books.jpg"); 
     background-size: cover;
+    /* background-position: 25%; */
     /* background-color: #4488ac; */
     /* height: 100vh; */
     padding: 20px;
@@ -219,7 +220,7 @@ main {
     padding: 20px;
 }
 
-.text-input {
+.text-input, textarea {
     background: #ffffff;
     color: #0d0c0d;
     width: 90%;
@@ -328,6 +329,17 @@ footer {
     #questions li {
         margin-bottom: 5px;
     }
+
+     /* Form */
+      #signup {
+        background-position: center;
+    } 
+
+    #signup-form { 
+        max-width: 500px; 
+        margin: 5% 0 10% 12%;
+
+    } 
 }
 /* Large devices (laptops and desktops, 992px and up) */
 @media screen and (min-width: 992px) {
