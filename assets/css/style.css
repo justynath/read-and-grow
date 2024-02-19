@@ -139,20 +139,47 @@ main {
 #testimonials {
     padding: 10px;
 }
+
+#testimonials h2 {
+    display: none;
+}
 #quotes {
-    /* background: url('../images/reading-books-2.jpg') no-repeat center/cover; */
     display: flex;
     flex-wrap: wrap;
     }
 
 #quotes div {
     color: #0d0c0c;
-        /* background-color:rgba(30, 139, 195, 0.4); */
     padding: 10px;
     text-align: center;
-    flex-basis: 300px;
+    flex-basis: 250px;
     flex-grow: 1;
+    margin: auto;
     }
+/* #quotes-image {
+    border-radius: 50%;
+    max-width: 250px;
+    max-height: 250px;
+}  */
+#quotes-image-1 {
+    background: url('../images/reading-books.jpg') no-repeat top center / cover;
+    height: 90vw;
+    width: 90vw;
+    /* Makes the square image into a circle */
+    border-radius: 50%;
+    max-width: 200px;
+    max-height: 200px;
+}
+
+#quotes-image-2 {
+    background: url('../images/holding-books.jpg') no-repeat top center / cover;
+    height: 90vw;
+    width: 90vw;
+    /* Makes the square image into a circle */
+    border-radius: 50%;
+    max-width: 200px;
+    max-height: 200px;
+}
 
 /* Current Reading Page */
 
