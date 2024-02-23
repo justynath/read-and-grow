@@ -227,6 +227,21 @@ main {
     margin-bottom: 3px;
 }
 
+#meetups {
+    margin: 20px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+#meetups div {
+    color: #0d0c0c;
+    text-align: center;
+    margin: 30px;
+    max-width: 400px;
+    max-height: 400px;
+}
+
 /* Sign up page */
 #signup {
     background-image: url("../images/stack-of-books.jpg"); 
