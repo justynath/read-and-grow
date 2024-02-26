@@ -219,6 +219,10 @@ main {
     margin-bottom: 3px;
 }
 
+#meetups {
+    margin: 30px;
+}
+
 #meetups h2 {
     text-align: center;
 }
@@ -241,11 +245,15 @@ main {
 #signup {
     background-image: url("../images/stack-of-books.jpg"); 
     background-size: cover;
-    /* background-position: 25%; */
-    /* background-color: #4488ac; */
     height: 100vh;
-    padding: 10%;
-    /* flex-grow: 1; */
+    padding: 20px 10% 120px 10%;
+    flex-grow: 1;
+}
+
+#signup-form {
+    color: #0d0c0c;
+    background-color: rgba(30, 139, 195, 0.4);
+    padding: 20px;
 }
 
 #signup-form > label {
@@ -262,12 +270,6 @@ main {
 
 #signup h3 {
     margin: 5px 0 5px;
-}
-
-#signup-form {
-    color: #0d0c0c;
-    background-color: rgba(30, 139, 195, 0.4);
-    padding: 20px;
 }
 
 .text-input, textarea {
@@ -374,10 +376,6 @@ footer {
         width: 50%;
     } 
 
-    /* .book-cover img { */
-        /* max-width: 60%; */
-    /* } */
-
     .book-info {
         align-items: center;
     }
@@ -407,5 +405,15 @@ footer {
 @media screen and (min-width: 992px) {
     #menu a:hover {
         border-bottom: 1px solid #51504f;
+    }
+
+    /* Current reading */
+
+    .book-cover {
+        width: 30%;
+    }
+
+    #questions li {
+        margin-bottom: 10px;
     }
 }
