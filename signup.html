@@ -1,71 +1,72 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- Meta tags for search engines -->
-    <meta name="description" content="Bookclub for nonfiction reading. Bookclub in Brentwood. Learing together. Book recomendations.">
-    <meta name="keywords" content="reading, learning, non-fiction, nonfiction, bookclub, Brentwood, online bookclub">
-    <!-- Title -->
-    <title>Read and Grow</title>
-    <!-- Favicon -->
-    <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png">
-    <!-- Stylesheets -->
-    <link rel="stylesheet" href="assets/css/style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Meta tags for search engines -->
+  <meta name="description"
+    content="Bookclub for nonfiction reading. Bookclub in Brentwood. Learing together. Book recomendations.">
+  <meta name="keywords" content="reading, learning, non-fiction, nonfiction, bookclub, Brentwood, online bookclub">
+  <!-- Title -->
+  <title>Read and Grow</title>
+  <!-- Favicon -->
+  <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png">
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="assets/css/style.css">
 </head>
+
 <body>
-    <!-- Header -->
-    <header>
-        <a href="index.html" id="logo">
-            <h1>Read and Grow</h1>
-        </a>
-        <input type="checkbox" id="nav-toggle" name="nav-toggle" />
-        <label for="nav-toggle" class="nav-toggle-label"
-          ><i class="fa-solid fa-bars"></i
-        ></label>
-        <nav>
-          <ul id="menu">
-            <li>
-              <a href="index.html">Home</a>
-            </li>
-            <li>
-              <a href="current-reading.html">Current Reading</a>
-            </li>
-            <li>
-            <a href="reading-history.html">Reading History</a>
-            </li>
-            <li>
-              <a href="signup.html" class="active">Sign up</a>
-            </li>
-          </ul>
-        </nav>
+  <!-- Header -->
+  <header>
+    <a href="index.html" id="logo">
+      <h1>Read and Grow</h1>
+    </a>
+    <input type="checkbox" id="nav-toggle" name="nav-toggle" />
+    <label for="nav-toggle" class="nav-toggle-label"><i class="fa-solid fa-bars"></i></label>
+    <nav>
+      <ul id="menu">
+        <li>
+          <a href="index.html">Home</a>
+        </li>
+        <li>
+          <a href="current-reading.html">Current Reading</a>
+        </li>
+        <li>
+          <a href="reading-history.html">Reading History</a>
+        </li>
+        <li>
+          <a href="signup.html" class="active">Sign up</a>
+        </li>
+      </ul>
+    </nav>
   </header>
-    <!-- Main content -->
-    <main>
+  <!-- Main content -->
+  <main>
     <section id="signup">
       <h1>Sign up Form</h1>
       <form action="https://formdump.codeinstitute.net" id="signup-form" method="post">
         <h2>Read and Grow with Us!</h3>
-        <label for="first_name">First Name</label>
-        <input type="text" name="first_name" id="first_name" class="text-input" required>
-        <br>
-        <label for="last_name">Last Name</label>
-        <input type="text" name="last_name" id="last_name" class="text-input" required>
-        <br>
-        <label for="email_address">Email address</label>
-        <input type="email" name="email_address" id="email_address" class="text-input" required>
-        <br>
-        <h3>Interests</h3>
+          <label for="first_name">First Name</label>
+          <input type="text" name="first_name" id="first_name" class="text-input" required>
+          <br>
+          <label for="last_name">Last Name</label>
+          <input type="text" name="last_name" id="last_name" class="text-input" required>
+          <br>
+          <label for="email_address">Email address</label>
+          <input type="email" name="email_address" id="email_address" class="text-input" required>
+          <br>
+          <h3>Interests</h3>
           <div class="interests-checkbox">
             <div>
               <input type="checkbox" name="interests" id="history">
               <label for="history">History</label>
             </div>
             <div>
-               <input type="checkbox" name="interests" id="biography" >
-               <label for="biography">Biography</label>
+              <input type="checkbox" name="interests" id="biography">
+              <label for="biography">Biography</label>
             </div>
             <div>
               <input type="checkbox" name="interests" id="nature">
@@ -96,31 +97,38 @@
               <label for="crime">True Crime</label>
             </div>
           </div>
-        <div>
-          <label for="suggest"><h3>Suggest a book (optional)</h3></label>
-          <textarea name="suggest" id="suggext" placeholder="Title, author and short description" style="height:100px"></textarea>
-        </div>
-        <button type="submit" id="join-button">Join us!</button>
+          <div>
+            <label for="suggest">
+              <h3>Suggest a book (optional)</h3>
+            </label>
+            <textarea name="suggest" id="suggext" placeholder="Title, author and short description"
+              style="height:100px"></textarea>
+          </div>
+          <button type="submit" id="join-button">Join us!</button>
       </form>
     </section>
-    </main>
-    
-    <!-- Footer -->
-    <footer>
-        <ul id="social-networks">
-          <li>
-            <a href="https://www.facebook.com" target="_blank" rel="noopener" aria-label="Visit our Facebook page (opens in a new tab)"><i class="fa-brands fa-facebook"></i></a>
-          </li>
-          <li>
-            <a href="https://twitter.com/" target="_blank" rel="noopener" aria-label="Visit our X page (opens in a new tab)"><i class="fa-brands fa-x-twitter"></i></a>
-          </li>
-          <li>
-            <a href="https://www.instagram.com" target="_blank" rel="noopener" aria-label="Visit our Instagram page (opens in a new tab)"><i class="fa-brands fa-instagram"></i></a>
-          </li>
-        </ul>
-    </footer>
+  </main>
 
-    <!-- Font awsome kit -->
-        <script src="https://kit.fontawesome.com/e6ed4f3b44.js" crossorigin="anonymous"></script>
+  <!-- Footer -->
+  <footer>
+    <ul id="social-networks">
+      <li>
+        <a href="https://www.facebook.com" target="_blank" rel="noopener"
+          aria-label="Visit our Facebook page (opens in a new tab)"><i class="fa-brands fa-facebook"></i></a>
+      </li>
+      <li>
+        <a href="https://twitter.com/" target="_blank" rel="noopener"
+          aria-label="Visit our X page (opens in a new tab)"><i class="fa-brands fa-x-twitter"></i></a>
+      </li>
+      <li>
+        <a href="https://www.instagram.com" target="_blank" rel="noopener"
+          aria-label="Visit our Instagram page (opens in a new tab)"><i class="fa-brands fa-instagram"></i></a>
+      </li>
+    </ul>
+  </footer>
+
+  <!-- Font awsome kit -->
+  <script src="https://kit.fontawesome.com/e6ed4f3b44.js" crossorigin="anonymous"></script>
 </body>
+
 </html>
