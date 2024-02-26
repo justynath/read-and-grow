@@ -376,6 +376,29 @@ footer {
         font-size: 1em;
         padding: 40px;
     }
+ 
+    /* Current reading */
+    .book-cover {
+        width: 30%;
+    }
+
+    /* Form */
+    #signup {
+        background-position: center;
+    }
+
+    #signup-form {
+        max-width: 500px;
+        margin: 5% 0 0 12%;
+
+    }
+}
+
+/* Large devices (laptops and desktops, 992px and up) */
+@media screen and (min-width: 992px) {
+    #menu a:hover {
+        border-bottom: 1px solid #51504f;
+    }
 
     /* Current reading */
     #current-reading {
@@ -398,33 +421,5 @@ footer {
 
     #questions li {
         margin-bottom: 5px;
-    }
-
-    /* Form */
-    #signup {
-        background-position: center;
-    }
-
-    #signup-form {
-        max-width: 500px;
-        margin: 5% 0 0 12%;
-
-    }
-}
-
-/* Large devices (laptops and desktops, 992px and up) */
-@media screen and (min-width: 992px) {
-    #menu a:hover {
-        border-bottom: 1px solid #51504f;
-    }
-
-    /* Current reading */
-
-    .book-cover {
-        width: 30%;
-    }
-
-    #questions li {
-        margin-bottom: 10px;
     }
 }
