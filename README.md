@@ -1,17 +1,9 @@
 <p align="center"><img src="/assets/images/responsive.png" alt="drawing" width="800"/></p>
 
-
-# Introduction
-# Read And Grow
-### Project Description - This website serves as a hub for a non-fiction reading book club, offering information on upcoming meetups and current reading selections. The aim is to promote non-fiction reading across various topics and cultivate a community of like-minded individuals committed to lifelong learning. The website caters to current members of the book club community, as well as anyone interested in reading or starting to read non-fiction books and engaging in post-reading discussions. The book club hosts both online meetups and in-person gatherings in central London.
-
-
-
+# Read and Grow
+### Read and Grow is a website that serves as a hub for a non-fiction reading book club, offering information on upcoming meetups and current reading selections. The aim is to promote non-fiction reading across various topics and cultivate a community of like-minded individuals committed to lifelong learning. The website caters to current members of the book club community, as well as anyone interested in reading or starting to read non-fiction books and engaging in post-reading discussions. The book club hosts both online meetups and in-person gatherings in central London.
 
 # Features 
-
-In this section, you should go over the different parts of your project, and describe each in a sentence or so. 
-You will need to explain what value each of the features provides for the user, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
 
 <hr> 
 
@@ -28,11 +20,12 @@ You will need to explain what value each of the features provides for the user, 
 
 <hr> 
 
-**Services**
+**Introduction**
 
-  - Services section highlights available to the client services in a form of cards, each with a Call To Action button leading to the Contact form 
+  - An Image of people holding books and having a discussion. This is to create a positive user experience and create a feeling of relaation as well as desire of belonging and being part of a community.
+  - A welcoming sentence to summarise who this book club is for "lifelong learning lovers".
 
-  <details><summary>Services Screenshot</summary>
+  <details><summary>Introduction Screenshot</summary>
 
   <p align="center"><img src="https://placehold.co/600x400" alt="drawing" width="600"/></p>
 
@@ -40,10 +33,35 @@ You will need to explain what value each of the features provides for the user, 
 
 <hr> 
 
-**The Gallery**
+**About Us**
 
-  - Gallery showcases various artwork by the Photographer, or images of past events
-  - This section is valuable to the user as they will be able to easily identify the types of events the organisation puts together. 
+  - A short information about the book club and it purpose.
+  - An invitation to check the current reading section with more details about oncoming meetup. It contains a link to allow intuitive navigation on the website.
+
+  <details><summary>Introduction Screenshot</summary>
+
+  <p align="center"><img src="https://placehold.co/600x400" alt="drawing" width="600"/></p>
+
+  </details>
+
+<hr> 
+
+**Testimonials**
+
+  - Quotes of people that have participared in book club meetups.
+  - Each testimonial contains a photo of a person smiling and holding a book. This is to give autenticity as well as share the positive approach and increased happiness linked ot learing and being a part of comunity.
+
+  <details><summary>Introduction Screenshot</summary>
+
+  <p align="center"><img src="https://placehold.co/600x400" alt="drawing" width="600"/></p>
+
+  </details>
+
+<hr> 
+
+**Current Reading**
+
+  - Introduction of a new book "The Psychology of Money" with an image of the cover and short description of what teh book is about.
 
   <details><summary>Gallery Screenshot</summary>
 
@@ -53,12 +71,37 @@ You will need to explain what value each of the features provides for the user, 
 
 <hr> 
 
-**Contact Form**
+**Discussion Guide**
 
-  - An interactive contact form to enable users to get in touch with the company
+  - Suggested questions to consider while reading and to be used during the meetup.
+
+  <details><summary>Discussion Guide Screenshot</summary>
+
+  <p align="center"><img src="https://placehold.co/600x400" alt="drawing" width="600"/></p>
+
+  </details>
+
+<hr> 
+
+**Meetup Details**
+
+  - Details of futute meetups including dates and location.
+  - Users are encouraged to get in touch for further details by sending the sign up form. Link to sign up page provided for wasy navigation.
+
+  <details><summary>Discussion Guide Screenshot</summary>
+
+  <p align="center"><img src="https://placehold.co/600x400" alt="drawing" width="600"/></p>
+
+  </details>
+
+<hr> 
+
+**Sign Up Form**
+
+  - An interactive sign up form to enable potential memebers to get in touch and receive further information about the book club and meetups
   - Includes fields for name, email and a message
 
-  <details><summary>Contact Form Screenshot</summary>
+  <details><summary>Sign up Form Screenshot</summary>
 
   <p align="center"><img src="https://placehold.co/600x400" alt="drawing" width="600"/></p>
 
