@@ -243,9 +243,9 @@ main {
     background-size: cover;
     /* background-position: 25%; */
     /* background-color: #4488ac; */
-    /* height: 100vh; */
-    padding: 30px;
-    flex-grow: 1;
+    height: 100vh;
+    padding: 10%;
+    /* flex-grow: 1; */
 }
 
 #signup-form > label {
@@ -399,7 +399,7 @@ footer {
 
     #signup-form { 
         max-width: 500px; 
-        margin: 5% 0 10% 12%;
+        margin: 5% 0 0 12%;
 
     } 
 }
