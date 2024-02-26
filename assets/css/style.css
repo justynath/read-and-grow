@@ -162,16 +162,16 @@ main {
     margin: 10px auto;
 
 }
-#quotes-image-1 {
+#quotes-image-one {
     background: url('../images/man-reading.jpg') no-repeat center / cover;
 }
-#quotes-image-2 {
+#quotes-image-two {
     background: url('../images/woman-reading-2.jpg') no-repeat center / cover;
 }
-#quotes-image-3 {
+#quotes-image-three {
     background: url('../images/man-reading-2.jpg') no-repeat center / cover;
 }
-#quotes-image-4 {
+#quotes-image-four {
     background: url('../images/woman-reading.jpg') no-repeat center / cover;
 }
 
@@ -180,7 +180,7 @@ main {
 #new-book {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    /* align-items: center; */
 }
 
 #current-reading > h1 {
@@ -188,14 +188,17 @@ main {
 }
 
 .book-cover {
-    width: 30%;
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    margin: 5% auto;
 }
 
 .book-cover img {
     box-shadow: 2px 2px 2px 2px #51504f;
     border: 1px solid #0d0c0c;
-    margin: 20% auto 0; 
-    max-width: 100%;
+    /* margin: 20% auto 0;  */
+    /* max-width: 100%; */
 }
 
 .book-info {
@@ -362,18 +365,18 @@ footer {
         padding: 40px;
     }
 
+    /* Current reading */
     #current-reading {
         display: flex;
     }
 
-    #new-book {
+    #new-book { 
         width: 50%;
-    }
+    } 
 
-    .book-cover img {
-        max-width: 240px;
-        margin-left: 10%;
-    }
+    /* .book-cover img { */
+        /* max-width: 60%; */
+    /* } */
 
     .book-info {
         align-items: center;
