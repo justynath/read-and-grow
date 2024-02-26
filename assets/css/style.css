@@ -117,8 +117,6 @@ main {
     align-items: center;
 }
 
-
-
 /* About Us */
 
 #about-us {
@@ -182,9 +180,7 @@ main {
 #new-book {
     display: flex;
     flex-direction: column;
-    /* justify-content: space-around; */
-    /* flex-wrap: wrap; */
-    /* overflow: auto; */
+    align-items: center;
 }
 
 #current-reading > h1 {
@@ -192,46 +188,45 @@ main {
 }
 
 .book-cover {
-    /* margin: 60px 120px 20px 60px; */
-    margin: 10% 40% 3% 60px;
+    width: 30%;
 }
 
 .book-cover img {
-    /* margin: 60px; */
-    /* border: 50px; */
-    box-shadow: 3px 3px 3px #51504f;
-    border: 1px solid #4488ac;
-    /* width: 100%; */
-    /* height: 100%; */
-    /* position: relative; */
+    box-shadow: 2px 2px 2px 2px #51504f;
+    border: 1px solid #0d0c0c;
+    margin: 20% auto 0; 
+    max-width: 100%;
 }
+
 .book-info {
-    font-size: 0.8em;
     padding: 1rem 3rem;
     text-align: justify;
 }
 
 #questions {
-    padding: 30px 30px 30px 50px;
-    font-size: 0.9em;
+    padding: 1rem 3rem;
     background-color: #ffffff;
 }
 
 #questions h2 {
     margin-bottom: 6px;
 } 
+
 #questions li {
     margin-bottom: 3px;
 }
 
-#meetups {
+#meetups h2 {
+    text-align: center;
+}
+#dates {
     margin: 20px;
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
 }
 
-#meetups div {
+#dates div {
     color: #0d0c0c;
     text-align: center;
     margin: 30px;
@@ -366,10 +361,6 @@ footer {
         font-size: 1em;
         padding: 40px;
     }
-    /* #new-book { 
-        flex-direction: row;
-        justify-content: space-around;
-    } */
 
     #current-reading {
         display: flex;
@@ -384,15 +375,14 @@ footer {
         margin-left: 10%;
     }
 
+    .book-info {
+        align-items: center;
+    }
+
     #questions {
         font-size: 1.1rem;
         width: 50%;
         margin: auto;
-    }
-
-    .book-info {
-        font-size: 1rem;
-        align-items: center;
     }
 
     #questions li {
