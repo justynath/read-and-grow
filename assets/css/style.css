@@ -31,7 +31,7 @@ header {
     width: 100%;
 
 } 
-h1, h2, h3, h4 {
+h1, h2, h3 {
     font-family: 'Protest Riot', sans-serif;
 }
 
@@ -368,6 +368,7 @@ footer {
     #about-us {
         font-size: 1em;
         padding: 40px;
+        text-align: center;
     }
     /* #new-book { 
         flex-direction: row;
