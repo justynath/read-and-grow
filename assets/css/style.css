@@ -248,18 +248,19 @@ main {
 }
 
 /* Sign up page */
+
 #signup {
     background-image: url("../images/stack-of-books.jpg");
     background-size: cover;
-    height: 100vh;
-    padding: 20px 10% 120px 10%;
+    background-position: 75%;
+    padding: 20px 10% 0 10%;
     flex-grow: 1;
 }
 
 #signup-form {
     color: #0d0c0c;
     background-color: rgba(30, 139, 195, 0.4);
-    padding: 20px;
+    padding: 30px;
 }
 
 #signup-form>label {
