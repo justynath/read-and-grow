@@ -278,24 +278,29 @@ Here are the details of the resolved bugs:
 
 #### Validator Testing 
 **HTML**
+Code has been validated with the official [W3C validator]https://validator.w3.org/nu/#textarea
+index.html
   - Error setting width=100% and no-repeat for the book-club image. Fixed by moving styling to css file.
   - Warnings about possible misused of aria-label with the images linked to testimonials
   - No further errors were returned when passing through the official [W3C validator]
-  - Current Reading Page https://validator.w3.org/nu/#textarea
-  - Sign up Page 
+current-reding.html
+  - No errors were found when passing through the official [W3C validator] https://validator.w3.org/nu/#textarea
+signup.html
+  - Errors with misuse of h3 headings in label, fixed
+  - No further errors were returned when passing through the official [W3C validator]
 
 **CSS**
-  - No errors were found when passing through the official [(Jigsaw) validator]https://jigsaw.w3.org/css-validator/validator
   - One warning linked ot texarea - "Imported style sheets are not checked in direct input and file upload modes"
+  - No errors were found when passing through the official [(Jigsaw) validator]
 
 
 
 ## Deployment
 
 - The site was deployed to GitHub pages. The steps to deploy are as follows: 
-  - In the GitHub repository, navigate to the Settings tab 
-  - From the source section drop-down menu, select the Main Branch
-  - Once the main branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment. 
+  - In the GitHub repository I navigate to the Settings tab 
+  - From the source section drop-down menu, I selected the Main Branch
+  - Once the main branch has been selected, the page automatically refreshed with a detailed ribbon display to indicate the successful deployment. 
 
 The live link can be found here - https://code-institute-org.github.io/love-running-2.0/index.html 
 
