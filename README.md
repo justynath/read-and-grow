@@ -1,7 +1,7 @@
 <p align="center"><img src="/assets/images/responsive.png" alt="drawing" width="800"/></p>
 
 # Read and Grow
-### Read and Grow is a website that serves as a hub for a non-fiction reading book club, offering information on upcoming meetups and current reading selections. The aim is to promote non-fiction reading across various topics and cultivate a community of like-minded individuals committed to lifelong learning. The website caters to current members of the book club community, as well as anyone interested in reading or starting to read non-fiction books and engaging in post-reading discussions. The book club hosts both online meetups and in-person gatherings in central London.
+**Read and Grow is a website that serves as a hub for a non-fiction reading book club, offering information on upcoming meetups and current reading selections. The aim is to promote non-fiction reading across various topics and cultivate a community of like-minded individuals committed to lifelong learning. The website caters to current members of the book club community, as well as anyone interested in reading or starting to read non-fiction books and engaging in post-reading discussions. The book club hosts both online meetups and in-person gatherings in central London.**
 
 # Features 
 
@@ -9,7 +9,7 @@
 
 **Navbar**
 
-  - Featured on all three pages, the fully responsive navigation bar includes links to the logo, home page, gallery, and sign-up page. It is identical on each page to facilitate easy navigation.
+  - Featured on all three pages, the fully responsive navigation bar includes links to the logo, home page, current reading, and sign-up page. It is identical on each page to facilitate easy navigation.
   - This section allows users to navigate seamlessly between pages on all devices without needing to use the 'back' button.
 
   <details><summary>Navbar Screenshot</summary>
@@ -38,7 +38,7 @@
   - A short information about the book club and it purpose.
   - An invitation to check the current reading section with more details about oncoming meetup. It contains a link to allow intuitive navigation on the website.
 
-  <details><summary>Introduction Screenshot</summary>
+  <details><summary>About Us Screenshot</summary>
 
   <p align="center"><img src="https://placehold.co/600x400" alt="drawing" width="600"/></p>
 
@@ -51,7 +51,7 @@
   - Quotes of people that have participared in book club meetups.
   - Each testimonial contains a photo of a person smiling and holding a book. This is to give autenticity as well as share the positive approach and increased happiness linked ot learing and being a part of comunity.
 
-  <details><summary>Introduction Screenshot</summary>
+  <details><summary>Testimonials Screenshot</summary>
 
   <p align="center"><img src="https://placehold.co/600x400" alt="drawing" width="600"/></p>
 
@@ -63,7 +63,7 @@
 
   - Introduction of a new book "The Psychology of Money" with an image of the cover and short description of what teh book is about.
 
-  <details><summary>Gallery Screenshot</summary>
+  <details><summary>Current Reading Screenshot</summary>
 
   <p align="center"><img src="https://placehold.co/600x400" alt="drawing" width="600"/></p>
 
@@ -85,10 +85,10 @@
 
 **Meetup Details**
 
-  - Details of futute meetups including dates and location.
+  - Details of future meetups including dates and location.
   - Users are encouraged to get in touch for further details by sending the sign up form. Link to sign up page provided for wasy navigation.
 
-  <details><summary>Discussion Guide Screenshot</summary>
+  <details><summary>Meetup Details Screenshot</summary>
 
   <p align="center"><img src="https://placehold.co/600x400" alt="drawing" width="600"/></p>
 
@@ -111,7 +111,7 @@
 
 **The Footer**
 
-  - The footer section includes links to the relevant social media sites for Love Running. The links will open to a new tab to allow easy navigation for the user. 
+  - The footer section includes links to the relevant social media sites for Read and Grow. The links will open to a new tab to allow easy navigation for the user. 
   - The footer is valuable to the user as it encourages them to keep connected via social media
 
   <details><summary>Footer Screenshot</summary>
@@ -126,20 +126,14 @@
 
 
 ## Future Features
-While the current version of the project is fully functional, we have some exciting features planned for future updates. Here are a few ideas that we didn't have time to implement in this release:
+While the current version of the project is fully functional, I have some exciting features planned for future updates. Here are a few ideas that we didn't have time to implement in this release:
 
-1. **Client Galleries**:
-   - Allow photographers to create private galleries for clients to view and download their photos securely.
-2. **Online Booking and Scheduling**:
-   - Implement a booking system that allows clients to schedule sessions with photographers, choose dates, and make payments online.
-3. **Photo Editing Tools**:
-   - Integrate basic photo editing tools like cropping, rotating, and applying filters directly on the website to enhance user-generated photos.
-4. **Print Ordering**:
-   - Enable clients to order prints, canvases, or other products featuring their favorite photos directly from the website.
-5. **Portfolio Builder**:
-   - Provide photographers with tools to easily create and customize their online portfolios, including options for different styles and layouts.
-6. **Blog or News Section**:
-   - Add a blog or news section to share photography tips, behind-the-scenes stories, and updates about your services.
+1. **Reading History**:
+   - Additional page with bookcovers and short descriptions of the book. Promotes reading non-fiction books as well as demonstrate what type of books are being chosen for the bookclub.
+2. **Online Booking**:
+   - Implement a booking system for in person meetups that cater for limited numebr of people in the set location.
+3. **Blog Section**:
+   - More detailed and personal accounts of in person meetups, including inteesting discussion points, recomendations and photos.
 
 <hr>
 
