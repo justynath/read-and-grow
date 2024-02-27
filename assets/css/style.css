@@ -371,12 +371,10 @@ footer {
     }
 
     #welcome {
-        font-size: 1.1em;
         width: 40%;
     }
 
     #about-us {
-        font-size: 1em;
         padding: 40px;
     }
  
@@ -399,8 +397,25 @@ footer {
 
 /* Large devices (laptops and desktops, 992px and up) */
 @media screen and (min-width: 992px) {
+    
+    body {
+        font-size: 1.1em;
+    }
+
+    h1, h2, h3 {
+        font-size: 1.2em;
+    }
+
+    #welcome {
+        font-size: 1.1em;
+    }
+
     #menu a:hover {
         border-bottom: 1px solid #51504f;
+    }
+
+    #testimonials, #dates {
+        font-size: 0.9em;
     }
 
     /* Current reading */
@@ -429,5 +444,8 @@ footer {
 }
 
 @media (min-width: 1281px) {
-  
+    @media (min-width: 1281px) {
+
+    }
+    
 }
