@@ -1,9 +1,8 @@
-<p align="center"><img src="/assets/images/responsive.png" alt="drawing" width="800"/></p>
-
 # Read and Grow
-**Read and Grow is a website that serves as a hub for a non-fiction reading book club, offering information on upcoming meetups and current reading selections. The aim is to promote non-fiction reading across various topics and cultivate a community of like-minded individuals committed to lifelong learning. The website caters to current members of the book club community, as well as anyone interested in reading or starting to read non-fiction books and engaging in post-reading discussions. The book club hosts both online meetups and in-person gatherings in central London.**
+## Overview
+Read and Grow is a website that serves as a hub for a non-fiction reading book club, offering information on upcoming meetups and current reading selections. The aim is to promote non-fiction reading across various topics and cultivate a community of like-minded individuals committed to lifelong learning. The website caters to current members of the book club community, as well as anyone interested in reading or starting to read non-fiction books and engaging in post-reading discussions. The book club hosts both online meetups and in-person gatherings in central London.
 
-<hr>
+<hr><hr>
 
 ## Planning
 
@@ -11,18 +10,24 @@
 
 ### Aim
 
+<hr>
+
 ### Targeted Audience
 
+<hr>
+
 ### User Stories
+
+<hr><hr>
 
 ## Features 
 
 <hr> 
 
-**Navbar**
+### Navbar 
 
-  - Featured on all three pages, the fully responsive navigation bar includes links to the logo, home page, current reading, and sign-up page. It is identical on each page to facilitate easy navigation.
-  - This section allows users to navigate seamlessly between pages on all devices without needing to use the 'back' button.
+ - Featured on all three pages, the fully responsive navigation bar includes links to the logo, home page, current reading, and sign-up page. It is identical on each page to facilitate easy navigation.
+ - This section allows users to navigate seamlessly between pages on all devices without needing to use the 'back' button.
 
   <details><summary>Navbar Screenshot</summary>
 
@@ -32,10 +37,10 @@
 
 <hr> 
 
-**Introduction**
+### Introduction
 
-  - An Image of people holding books and having a discussion. This is to create a positive user experience and create a feeling of relaation as well as desire of belonging and being part of a community.
-  - A welcoming sentence to summarise who this book club is for "lifelong learning lovers".
+- An Image of people holding books and having a discussion. This is to create a positive user experience and create a feeling of relaation as well as desire of belonging and being part of a community.
+- A welcoming sentence to summarise who this book club is for "lifelong learning lovers".
 
   <details><summary>Introduction Screenshot</summary>
 
@@ -45,10 +50,10 @@
 
 <hr> 
 
-**About Us**
+### About Us
 
-  - A short information about the book club and it purpose.
-  - An invitation to check the current reading section with more details about oncoming meetup. It contains a link to allow intuitive navigation on the website.
+- An information about the book club and its purpose.
+- An invitation to check the current reading section with more details about oncoming meetup. It contains a link to allow intuitive navigation on the website.
 
   <details><summary>About Us Screenshot</summary>
 
@@ -58,10 +63,10 @@
 
 <hr> 
 
-**Testimonials**
+### Testimonials
 
-  - Quotes of people that have participared in book club meetups.
-  - Each testimonial contains a photo of a person smiling and holding a book. This is to give autenticity as well as share the positive approach and increased happiness linked ot learing and being a part of comunity.
+- Quotes of people that have participared in book club meetups.
+- Each testimonial contains a photo of a person smiling and holding a book. This is to give autenticity as well as share the positive approach and increased happiness linked ot learing and being a part of comunity.
 
   <details><summary>Testimonials Screenshot</summary>
 
@@ -71,9 +76,9 @@
 
 <hr> 
 
-**Current Reading**
+### Current Reading
 
-  - Introduction of a new book "The Psychology of Money" with an image of the cover and short description of what teh book is about.
+- Introduction of a new book "The Psychology of Money" with an image of the cover and short description of what the book is about.
 
   <details><summary>Current Reading Screenshot</summary>
 
@@ -83,9 +88,9 @@
 
 <hr> 
 
-**Discussion Guide**
+### Discussion Guide
 
-  - Suggested questions to consider while reading and to be used during the meetup.
+- Suggested questions to consider while reading and to be used during the meetup.
 
   <details><summary>Discussion Guide Screenshot</summary>
 
@@ -95,7 +100,7 @@
 
 <hr> 
 
-**Meetup Details**
+### Meetup Details
 
   - Details of future meetups including dates and location.
   - Users are encouraged to get in touch for further details by sending the sign up form. Link to sign up page provided for wasy navigation.
@@ -108,7 +113,7 @@
 
 <hr> 
 
-**Sign Up Form**
+### Sign Up Form
 
   - An interactive sign up form to enable potential memebers to get in touch and receive further information about the book club and meetups
   - Includes fields for name, email and a message
@@ -121,7 +126,7 @@
 
 <hr> 
 
-**The Footer**
+### The Footer
 
   - The footer section includes links to the relevant social media sites for Read and Grow. The links will open to a new tab to allow easy navigation for the user. 
   - The footer is valuable to the user as it encourages them to keep connected via social media
@@ -146,7 +151,7 @@ While the current version of the project is fully functional, I have some exciti
 
 <hr>
 
-## Manual Testing 
+## Testing
 
 ### Features Testing
 
@@ -160,6 +165,30 @@ While the current version of the project is fully functional, I have some exciti
 ||Attempt to submit empty Name and Surname|Error pops up in field that's left empty|
 ||Attempt to submit empty or incorrect format email|Error pops up in field that's left empty or with incorrect email format|
 |Social Media Links|Test Facebook, X and Instagram links|Facebook, X and Instagram main page opens in a separate tab|
+
+<hr>
+
+### Browsers 
+
+**Supported Browsers and Devices**
+Our web application is officially tested and supported on the following browsers and devices:
+- Google Chrome (latest version)
+- Safari (latest version)
+
+**Responsiveness Testing**
+I conduct manual responsiveness testing on Chrome and Safari to ensure a seamless user experience.
+
+**Test Results**
+
+| Device/Screen Size  | Chrome Performance | Safari Performance |
+|----------------------|--------------------|---------------------|
+| Desktop (2560x1440) | no issues | no issues |
+| Laptop (1366x768)   | no issues | no issues |
+| Tablet (iPad)       | no issues | no issues |
+| Mobile (iPhone 12pro)   | Heading fonts on landscape view were not responsive | as Chrome |
+
+**Known Issues**
+- Heading fonts on landscape view were not responsive. I fixed that by setting font size as percentages.
 
 <hr>
 
@@ -192,30 +221,6 @@ Lighthouse tests were executed using the Google Chrome browser's DevTools.
 **Visuals**
 
 <p align="center"><img src="https://res.cloudinary.com/dugnokxox/image/upload/v1692960667/Screenshot_2023-08-25_at_11.50.29_cfmkxt.png" alt="drawing" width="800"/></p>
-
-<hr>
-
-### Browsers
-
-**Supported Browsers and Devices**
-Our web application is officially tested and supported on the following browsers and devices:
-- Google Chrome (latest version)
-- Safari (latest version)
-
-**Responsiveness Testing**
-I conduct manual responsiveness testing on Chrome and Safari to ensure a seamless user experience.
-
-**Test Results**
-
-| Device/Screen Size  | Chrome Performance | Safari Performance |
-|----------------------|--------------------|---------------------|
-| Desktop (2560x1440) | no issues | no issues |
-| Laptop (1366x768)   | no issues | no issues |
-| Tablet (iPad)       | no issues | no issues |
-| Mobile (iPhone 12pro)   | Heading fonts on landscape view were not responsive | as Chrome |
-
-**Known Issues**
-- Heading fonts on landscape view were not responsive. I fixed that by setting font size as percentages.
 
 <hr>
 
@@ -276,7 +281,8 @@ Here are the details of the resolved bugs:
 | #005   | Describe the bug and its impact on the user experience. | Unesolved |
 <hr>
 
-#### Validator Testing 
+### Validator Testing 
+
 **HTML**
 Code has been validated with the official [W3C validator]https://validator.w3.org/nu/#textarea
 index.html
@@ -302,7 +308,7 @@ signup.html
   - From the source section drop-down menu, I selected the Main Branch
   - Once the main branch has been selected, the page automatically refreshed with a detailed ribbon display to indicate the successful deployment. 
 
-The live link can be found here - https://code-institute-org.github.io/love-running-2.0/index.html 
+The live link can be found here - https://justynath.github.io/read-and-grow/signup.html
 
 
 ## Credits 
@@ -312,18 +318,21 @@ It is common practice to use code from other repositories and tutorials, however
 
 You can break the credits section up into Content and Media, depending on what you have included in your project. 
 
-#### Content 
+### Content 
 
-- The text for the Home page was taken from Wikipedia Article A
-- The development of this project was aided by the following YouTube tutorials:
+- Na bar and toggle bar were inspired by the Code Institute Love Running walk through project.
+- The use of the flexbox was supported by this [lesson] (https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
+- The icons used were taken from [Font Awesome](https://fontawesome.com/)
+- The fonts were imported from [Google Fonts] (https://fonts.google.com/)
+- The colour scheme was inspired by this [article] (https://muffingroup.com/blog/calm-color-palette/)
 
-| Tutorial Title      | Creator/Channel Name | Description                                          |
-|---------------------|-----------------------|------------------------------------------------------|
-| [Tutorial Title 1](link-to-tutorial) | [Creator/Channel Name 1] | How this tutorial helped you.             |
-| [Tutorial Title 2](link-to-tutorial) | [Creator/Channel Name 2] | How this tutorial contributed to your project. |
+### Media
 
-- The icons in the footer were taken from [Font Awesome](https://fontawesome.com/)
-
-#### Media
-
-The following images used in this project are sourced from Unsplash and are used under their respective licenses:
+- The image used as background waw sourced from https://www.pexels.com/
+- The following images were source from https://www.freepik.com/:
+   - Book Club image [attribution] (https://www.freepik.com/free-photo/authentic-book-club-scene_37155644.htm#page=2&query=book%20club&position=0&from_view=keyword&track=ais&uuid=1d4feaf7-528f-40ee-a71d-f1a81bc071c0")
+- Photos used for tesimonials, source from https://www.freepik.com/:
+   - Man reading image 1 [atttribution] (https://www.freepik.com/free-photo/man-sitting-couch-holding-book_6880673.htm#fromView=search&page=1&position=37&uuid=683e1cd9-401b-4c09-ba00-b4b29e997f16)
+   - Man reading image 2 [atttribution] (https://www.freepik.com/free-photo/senior-person-gesturing-isolated_20728512.htm#fromView=search&page=1&position=38&uuid=0a943e5a-72e2-4f31-af82-36739a80e5e8)
+   - Women reading image 1 [atttribution] (https://www.freepik.com/free-photo/leisure-self-education-hobby-retirement-concept-picture-good-looking-mature-senior-female-striped-sweater-stylish-eyewear-enjoying-reading-living-room-smiling-joyfully_11199979.htm#fromView=search&page=1&position=5&uuid=437c8519-9919-4c2a-8203-74929a13020b)
+   - Women reading image 2 [atttribution] (https://www.freepik.com/free-photo/front-view-woman-enjoying-book_5123756.htm#fromView=search&page=3&position=8&uuid=34c15c65-001e-4a75-a3b2-8d376e861515)
