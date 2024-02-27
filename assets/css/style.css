@@ -402,16 +402,21 @@ footer {
         font-size: 1.1em;
     }
 
-    h1, h2, h3 {
-        font-size: 1.2em;
-    }
-
-    #welcome {
-        font-size: 1.1em;
+    h1, h2 {
+        font-size: 1.5em;
     }
 
     #menu a:hover {
         border-bottom: 1px solid #51504f;
+    }
+
+    #welcome {
+        padding: 0 5%;
+        font-size: 110%;
+    }
+
+    #about-us {
+        padding: 0 10%;
     }
 
     #testimonials, #dates {
@@ -441,11 +446,4 @@ footer {
     #questions li {
         margin-bottom: 5px;
     }
-}
-
-@media (min-width: 1281px) {
-    @media (min-width: 1281px) {
-
-    }
-    
 }
