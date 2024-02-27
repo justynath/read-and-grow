@@ -209,10 +209,10 @@ I conduct manual responsiveness testing on Chrome and Safari to ensure a seamles
 
 | Device/Screen Size  | Chrome Performance | Safari Performance |
 |----------------------|--------------------|---------------------|
-| Desktop (2560x1440) | Describe performance and issues on Chrome | Describe performance and issues on Firefox |
-| Laptop (1366x768)   | Describe performance and issues on Chrome | Describe performance and issues on Firefox |
-| Tablet (iPad)       | Describe performance and issues on Chrome | Describe performance and issues on Firefox |
-| Mobile (iPhone 12pro)   | Describe performance and issues on Chrome | Describe performance and issues on Firefox |
+| Desktop (2560x1440) | no issues | no issues |
+| Laptop (1366x768)   | no issues | no issues |
+| Tablet (iPad)       | no issues | no issues |
+| Mobile (iPhone 12pro)   | Header fonds on horizontal screen weren not responsive. I fixed that by setting font size as percentages. | as Chrome |
 
 **Known Issues**
 - [List any known responsiveness issues or limitations]

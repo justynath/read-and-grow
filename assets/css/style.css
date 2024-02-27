@@ -110,20 +110,20 @@ main {
 #welcome {
     margin: 2rem;
     text-align: center;
-    font-size: 80%;
     line-height: 200%;
     display: flex;
     justify-content: center;
     align-items: center;
+    font-size: 85%;
 }
 
 /* About Us */
 #about-us {
     background-color: #ffffff;
-    font-size: 0.9em;
     padding: 20px;
     line-height: 150%;
     text-align: center;
+    font-size: 90%;
 }
 
 #about-us h2 {
@@ -149,6 +149,7 @@ main {
     margin: auto;
     max-width: 300px;
     max-height: 300px;
+    font-size: 90%;
 }
 
 .quotes-images {
@@ -395,15 +396,12 @@ footer {
 
     #welcome {
         padding: 0 5%;
-        font-size: 105%;
+        font-size: 100%;
     }
 
     #about-us {
         padding: 0 10%;
-    }
-
-    #testimonials, #dates {
-        font-size: 0.9em;
+        font-size: 100%
     }
 
     /* Current Reading */
