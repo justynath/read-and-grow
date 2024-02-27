@@ -185,10 +185,6 @@ main {
     flex-direction: column;
 }
 
-#current-reading>h1 {
-    display: none;
-}
-
 .book-cover {
     display: flex;
     justify-content: center;
