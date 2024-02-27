@@ -3,7 +3,19 @@
 # Read and Grow
 **Read and Grow is a website that serves as a hub for a non-fiction reading book club, offering information on upcoming meetups and current reading selections. The aim is to promote non-fiction reading across various topics and cultivate a community of like-minded individuals committed to lifelong learning. The website caters to current members of the book club community, as well as anyone interested in reading or starting to read non-fiction books and engaging in post-reading discussions. The book club hosts both online meetups and in-person gatherings in central London.**
 
-# Features 
+<hr>
+
+## Planning
+
+<hr>
+
+### Aim
+
+### Targeted Audience
+
+### User Stories
+
+## Features 
 
 <hr> 
 
@@ -122,9 +134,6 @@
 
 <hr> 
 
-
-
-
 ## Future Features
 While the current version of the project is fully functional, I have some exciting features planned for future updates. Here are a few ideas that we didn't have time to implement in this release:
 
@@ -139,24 +148,25 @@ While the current version of the project is fully functional, I have some exciti
 
 ## Manual Testing 
 
-#### Features Testing
+### Features Testing
 
 |  Feature |  Action | Effect |
 |---|---|---|
 |Logo|Click|Brings back to Home page|
-|Navbar Links|Click on Gallery|Opens Gallery|
-||Click on About|Opens About page|
+|Navbar Links|Click on Current Reading|Opens Current Reading page|
+||Click on Sign up|Opens Sign up page|
 ||Click on Contact|Opens Contact page|
 |Contact Page|Fill out the form and submit|A form dump is rendered|
-||Attempt to submit empty|Error pops up in field that's left empty|
-|Social Media Links|Test Instagram link|Instagram profile opens in a separate tab|
+||Attempt to submit empty Name and Surname|Error pops up in field that's left empty|
+||Attempt to submit empty or incorrect format email|Error pops up in field that's left empty or with incorrect email format|
+|Social Media Links|Test Facebook, X and Instagram links|Facebook, X and Instagram main page opens in a separate tab|
 
 <hr>
 
-#### Lighthouse
+### Lighthouse
 
 **Introduction**
-This report presents the results of Lighthouse testing conducted to assess the performance, accessibility, best practices, SEO, and PWA compliance of [Website Name].
+This report presents the results of Lighthouse testing conducted to assess the performance, accessibility, best practices, SEO, and PWA compliance of Read and Grow.
 
 **Test Execution**
 Lighthouse tests were executed using the Google Chrome browser's DevTools.
@@ -185,24 +195,24 @@ Lighthouse tests were executed using the Google Chrome browser's DevTools.
 
 <hr>
 
-#### Browsers
+### Browsers
 
 **Supported Browsers and Devices**
 Our web application is officially tested and supported on the following browsers and devices:
 - Google Chrome (latest version)
-- Mozilla Firefox (latest version)
+- Safari (latest version)
 
 **Responsiveness Testing**
-We conduct manual responsiveness testing on Chrome and Firefox to ensure a seamless user experience.
+I conduct manual responsiveness testing on Chrome and Safari to ensure a seamless user experience.
 
 **Test Results**
 
-| Device/Screen Size  | Chrome Performance | Firefox Performance |
+| Device/Screen Size  | Chrome Performance | Safari Performance |
 |----------------------|--------------------|---------------------|
-| Desktop (1920x1080) | Describe performance and issues on Chrome | Describe performance and issues on Firefox |
+| Desktop (2560x1440) | Describe performance and issues on Chrome | Describe performance and issues on Firefox |
 | Laptop (1366x768)   | Describe performance and issues on Chrome | Describe performance and issues on Firefox |
 | Tablet (iPad)       | Describe performance and issues on Chrome | Describe performance and issues on Firefox |
-| Mobile (iPhone X)   | Describe performance and issues on Chrome | Describe performance and issues on Firefox |
+| Mobile (iPhone 12pro)   | Describe performance and issues on Chrome | Describe performance and issues on Firefox |
 
 **Known Issues**
 - [List any known responsiveness issues or limitations]
