@@ -212,56 +212,24 @@ I conduct manual responsiveness testing on Chrome and Safari to ensure a seamles
 | Desktop (2560x1440) | no issues | no issues |
 | Laptop (1366x768)   | no issues | no issues |
 | Tablet (iPad)       | no issues | no issues |
-| Mobile (iPhone 12pro)   | Header fonds on horizontal screen weren not responsive. I fixed that by setting font size as percentages. | as Chrome |
+| Mobile (iPhone 12pro)   | Heading fonts on landscape view were not responsive | as Chrome |
 
 **Known Issues**
-- [List any known responsiveness issues or limitations]
-
-**Recommendations**
-If you encounter any responsiveness issues, we recommend:
-- Updating your browser to the latest version.
-- Trying an alternative device or screen size for optimal viewing.
+- Heading fonts on landscape view were not responsive. I fixed that by setting font size as percentages.
 
 <hr>
 
-#### Screen Sizes testing
+### Bugs Resolved
 
 **Introduction**
-This section provides an overview of how our web application [Website Name] performs across different screen sizes.
-
-**Supported Screen Sizes**
-Our web application is designed to be responsive and adapt to various screen sizes. Below are the screen sizes we have tested:
-
-| Screen Size     | Description             |
-|-----------------|-------------------------|
-| Desktop         | 1920x1080 pixels        |
-| Laptop          | 1366x768 pixels         |
-| Tablet (iPad)   | 768x1024 pixels (portrait) and 1024x768 pixels (landscape) |
-| Mobile (iPhone) | 375x812 pixels (iPhone X, portrait) and 812x375 pixels (iPhone X, landscape) |
-
-**Testing Results**
-
-| Screen Size     | Test Results           |
-|-----------------|------------------------|
-| Desktop         | Describe performance and issues on different browsers |
-| Laptop          | Describe performance and issues on different browsers |
-| Tablet (iPad)   | Describe performance and issues on different browsers |
-| Mobile (iPhone) | Describe performance and issues on different browsers |
-
-<hr> 
-
-#### Bugs Resolved
-
-
-**Introduction**
-This section provides a summary of bugs that have been identified, reported, and subsequently resolved in [Website Name].
+This section provides a summary of bugs that have been identified, reported, and subsequently resolved in Read and Grow.
 
 **Bug Tracking**
 Below is a summary of resolved bugs:
 
 | Bug ID | Bug Description | Status |
 |--------|-----------------|--------|
-| #001   | Describe the bug and its impact on the user experience. | Resolved |
+| #001   | White space under the background image gives an impression as if something is missing from the page | Resolved |
 | #002   | Describe the bug and its impact on the user experience. | Resolved |
 | #003   | Describe the bug and its impact on the user experience. | Resolved |
 | #004   | Describe the bug and its impact on the user experience. | Resolved |
@@ -271,9 +239,9 @@ Below is a summary of resolved bugs:
 Here are the details of the resolved bugs:
 
 **Bug #001**
-- **Description**: Describe the bug and the steps to reproduce it.
-- **Resolution**: Explain how the bug was resolved, including any code changes or fixes.
-- **Impact**: Discuss the impact of this bug on users and the importance of the fix.
+- **Description**: White space under the background image despite seting background-image to cover.
+- **Resolution**: I added display flex to the main sectiona and set it as c.
+- **Impact**: The user feels reassured that the form is the only item on the page, no information is missing.
 
 **Bug #002**
 - **Description**: Describe the bug and the steps to reproduce it.
