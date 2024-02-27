@@ -170,19 +170,19 @@ main {
 }
 
 #quotes-image-one {
-    background: url('../images/man-reading.jpg') no-repeat center / cover;
+    background: url('../images/man-reading.webp') no-repeat center / cover;
 }
 
 #quotes-image-two {
-    background: url('../images/woman-reading-2.jpg') no-repeat center / cover;
+    background: url('../images/woman-reading-2.webp') no-repeat center / cover;
 }
 
 #quotes-image-three {
-    background: url('../images/man-reading-2.jpg') no-repeat center / cover;
+    background: url('../images/man-reading-2.webp') no-repeat center / cover;
 }
 
 #quotes-image-four {
-    background: url('../images/woman-reading.jpg') no-repeat center / cover;
+    background: url('../images/woman-reading.webp') no-repeat center / cover;
 }
 
 /* Current Reading Page */
