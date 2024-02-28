@@ -28,99 +28,74 @@ The non-fiction reading book club is for people who enjoy learning about real-li
  - Featured on all three pages, the fully responsive navigation bar includes links to the logo, Home page, Current Reading page, and Sign up page. It is identical on each page to facilitate easy navigation
  - This section allows users to navigate seamlessly between pages on all devices without needing to use the 'back' button
 
-|[navbar](./assets/readme-assets/navbar.png)
+![navbar](./assets/readme-assets/navbar.png)
+-
+![navbar mobile](./assets/readme-assets/navbar-mobile.png)
+-
 
 ### Introduction
 
 - An image of people holding books and engaged in discussion. This aims to enhance the user experience, evoke feelings of relaxation, and foster a sense of belonging and community
 - A welcoming sentence to summarise who this book club is for "lifelong learning lovers"
 
-  <details><summary>Introduction Screenshot</summary>
-
-  <p align="center"><img src="https://placehold.co/600x400" alt="drawing" width="600"/></p>
-
-  </details>
+![introduction](./assets/readme-assets/introduction.png)
+-
 
 ### Who We Are
 
 - An information about the book club and its purpose
 - An invitation to check the current reading section with more details about oncoming meetup. It contains a link to allow intuitive navigation on the website
 
-  <details><summary>About Us Screenshot</summary>
-
-  <p align="center"><img src="https://placehold.co/600x400" alt="drawing" width="600"/></p>
-
-  </details>
-
+![who we are](./assets/readme-assets/who-we-are.png)
+-
 
 ### Testimonials
 
 - Quotes of people that have participared in book club meetups
 - Each testimonial contains a photo of a person smiling and holding a book. This is done to provide authenticity, convey a positive approach, and cultivate a sense of happiness associated with learning and being part of a community
 
-  <details><summary>Testimonials Screenshot</summary>
-
-  <p align="center"><img src="https://placehold.co/600x400" alt="drawing" width="600"/></p>
-
-  </details>
-
+![testimonials](./assets/readme-assets/testimonials.png)
+-
 
 ### Current Reading
 
 - Introduction of a new book "The Psychology of Money" with an image of the cover and short description of what the book is about.
 - User is able to check what book is being discussed in the coming meetups
 
-  <details><summary>Current Reading Screenshot</summary>
-
-  <p align="center"><img src="https://placehold.co/600x400" alt="drawing" width="600"/></p>
-
-  </details>
+![current reading](./assets/readme-assets/current-reading.png)
+-
 
 ### Discussion Guide
 
 - Suggested questions to consider while reading and to be used during the meetup
 - User can have a better understanding of what topics linked to the book are being discussed in more depth
 
-  <details><summary>Discussion Guide Screenshot</summary>
-
-  <p align="center"><img src="https://placehold.co/600x400" alt="drawing" width="600"/></p>
-
-  </details>
+![discussion guide](./assets/readme-assets/discussion-guide.png)
+-
 
 ### Meetup Details
 
   - Details of future meetups including dates and location
   - Users are encouraged to get in touch for further details by sending the sign up form. Link to sign up page provided for easy navigation
 
-  <details><summary>Meetup Details Screenshot</summary>
-
-  <p align="center"><img src="https://placehold.co/600x400" alt="drawing" width="600"/></p>
-
-  </details>
-
+![meetup details](./assets/readme-assets/meetup-details.png)
+-
 
 ### Sign Up Form
 
   - An interactive sign up form to enable potential memebers to get in touch and receive further information about the book club and meetups
   - Includes fields for name, email and a message
 
-  <details><summary>Sign up Form Screenshot</summary>
-
-  <p align="center"><img src="https://placehold.co/600x400" alt="drawing" width="600"/></p>
-
-  </details>
-
+![signup form](./assets/readme-assets/signup-form.png)
+-
 
 ### The Footer
 
   - The footer section includes links to the relevant social media sites for Read and Grow. The links will open to a new tab to allow easy navigation for the user. 
   - The footer is valuable to the user as it encourages them to keep connected via social media
 
-  <details><summary>Footer Screenshot</summary>
-
-   <p align="center"><img src="https://placehold.co/600x400" alt="drawing" width="600"/></p>
-
-  </details>
+![footer](./assets/readme-assets/footer.png)
+-
 
 ## Future Features
 While the current version of the project is fully functional, I have some exciting features planned for future updates. Here are a few ideas that I didn't have time to implement in this release:
