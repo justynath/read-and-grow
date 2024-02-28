@@ -269,7 +269,7 @@ Code has been validated with the official [(Jigsaw) validator](https://jigsaw.w3
   - From the source section drop-down menu, I selected the Main Branch
   - Once the main branch was selected, the page automatically refreshed with a detailed ribbon display to indicate the successful deployment. 
 
-The live link can be found here - [Read and Grow](https://justynath.github.io/read-and-grow/)
+The live link can be found here - https://justynath.github.io/read-and-grow/
 
 
 ## Credits 
@@ -286,9 +286,8 @@ The live link can be found here - [Read and Grow](https://justynath.github.io/re
 ### Media
 
 - The image used as background waw sourced from https://www.pexels.com/
-- The following images were source from https://www.freepik.com/:
+- The following images were source from https://www.freepik.com/
    - Book Club image [attribution](https://www.freepik.com/free-photo/authentic-book-club-scene_37155644.htm#page=2&query=book%20club&position=0&from_view=keyword&track=ais&uuid=1d4feaf7-528f-40ee-a71d-f1a81bc071c0")
-- Photos used for tesimonials, source from https://www.freepik.com/:
    - Man reading image 1 [atttribution](https://www.freepik.com/free-photo/man-sitting-couch-holding-book_6880673.htm#fromView=search&page=1&position=37&uuid=683e1cd9-401b-4c09-ba00-b4b29e997f16)
    - Man reading image 2 [atttribution](https://www.freepik.com/free-photo/senior-person-gesturing-isolated_20728512.htm#fromView=search&page=1&position=38&uuid=0a943e5a-72e2-4f31-af82-36739a80e5e8)
    - Women reading image 1 [atttribution](https://www.freepik.com/free-photo/leisure-self-education-hobby-retirement-concept-picture-good-looking-mature-senior-female-striped-sweater-stylish-eyewear-enjoying-reading-living-room-smiling-joyfully_11199979.htm#fromView=search&page=1&position=5&uuid=437c8519-9919-4c2a-8203-74929a13020b)
