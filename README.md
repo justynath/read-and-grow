@@ -2,32 +2,31 @@
 ## Overview
 Read and Grow is a website that serves as a hub for a non-fiction reading book club, offering information on upcoming meetups and current reading selections. The aim is to promote non-fiction reading across various topics and cultivate a community of like-minded individuals committed to lifelong learning. The website caters to current members of the book club community, as well as anyone interested in reading or starting to read non-fiction books and engaging in post-reading discussions. The book club hosts both online meetups and in-person gatherings in central London.
 
-<hr><hr>
-
 ## Planning
 
-<hr>
 
 ### Aim
-
-<hr>
+The website aims to cultivate a community of readers interested in learning and critical thinking. Through easy navigation and interactive features, it encourages users to explore new knowledge and perspectives, fostering the sharing of ideas and individual interpretations of written texts. Ultimately, the goal is to ignite a passion for lifelong learning and serve as a valuable resource for those seeking to broaden their understanding through non-fiction reading.
 
 ### Targeted Audience
-
-<hr>
+The non-fiction reading book club is for people who enjoy learning about real-life topics. It's open to anyone curious about history, science, biographies, and more. The book club encourages keen readers, professionals looking to expand their knowledge, or just people interested in discussing real-world issues to join the community. It's a place where they can come together to explore interesting ideas and stories, and to connect with others who share a passion for learning and thinking critically.
 
 ### User Stories
-
-<hr><hr>
+- As a user, I want to understand the purpose of this website quickly and easily.
+- As a user, I want to easily navigate this website.
+- As a user, I want to find out more about the non-fiction bookclub.
+- As a user, I want to find out about currently read book.
+- As a user, I want to understand what the discussion during the bookclub meeting will contain.
+- As a user, I want to be able to check the dates of the coming bookclub meetups.
+- As a user, I want to be able to contact the book club.
+- As a user, I want to have a sense of belonging as soon as I decide to join by sharing my interests and suggesting reading.
 
 ## Features 
 
-<hr> 
-
 ### Navbar 
 
- - Featured on all three pages, the fully responsive navigation bar includes links to the logo, home page, current reading, and sign-up page. It is identical on each page to facilitate easy navigation.
- - This section allows users to navigate seamlessly between pages on all devices without needing to use the 'back' button.
+ - Featured on all three pages, the fully responsive navigation bar includes links to the logo, Home page, Current Reading page, and Sign up page. It is identical on each page to facilitate easy navigation
+ - This section allows users to navigate seamlessly between pages on all devices without needing to use the 'back' button
 
   <details><summary>Navbar Screenshot</summary>
 
@@ -35,12 +34,10 @@ Read and Grow is a website that serves as a hub for a non-fiction reading book c
 
   </details>
 
-<hr> 
-
 ### Introduction
 
-- An Image of people holding books and having a discussion. This is to create a positive user experience and create a feeling of relaation as well as desire of belonging and being part of a community.
-- A welcoming sentence to summarise who this book club is for "lifelong learning lovers".
+- An image of people holding books and engaged in discussion. This aims to enhance the user experience, evoke feelings of relaxation, and foster a sense of belonging and community
+- A welcoming sentence to summarise who this book club is for "lifelong learning lovers"
 
   <details><summary>Introduction Screenshot</summary>
 
@@ -48,12 +45,10 @@ Read and Grow is a website that serves as a hub for a non-fiction reading book c
 
   </details>
 
-<hr> 
+### WHo We Are
 
-### About Us
-
-- An information about the book club and its purpose.
-- An invitation to check the current reading section with more details about oncoming meetup. It contains a link to allow intuitive navigation on the website.
+- An information about the book club and its purpose
+- An invitation to check the current reading section with more details about oncoming meetup. It contains a link to allow intuitive navigation on the website
 
   <details><summary>About Us Screenshot</summary>
 
@@ -61,12 +56,11 @@ Read and Grow is a website that serves as a hub for a non-fiction reading book c
 
   </details>
 
-<hr> 
 
 ### Testimonials
 
-- Quotes of people that have participared in book club meetups.
-- Each testimonial contains a photo of a person smiling and holding a book. This is to give autenticity as well as share the positive approach and increased happiness linked ot learing and being a part of comunity.
+- Quotes of people that have participared in book club meetups
+- Each testimonial contains a photo of a person smiling and holding a book. This is done to provide authenticity, convey a positive approach, and cultivate a sense of happiness associated with learning and being part of a community
 
   <details><summary>Testimonials Screenshot</summary>
 
@@ -74,11 +68,11 @@ Read and Grow is a website that serves as a hub for a non-fiction reading book c
 
   </details>
 
-<hr> 
 
 ### Current Reading
 
 - Introduction of a new book "The Psychology of Money" with an image of the cover and short description of what the book is about.
+- User is able to check what book is being discussed in the coming meetups
 
   <details><summary>Current Reading Screenshot</summary>
 
@@ -86,11 +80,10 @@ Read and Grow is a website that serves as a hub for a non-fiction reading book c
 
   </details>
 
-<hr> 
-
 ### Discussion Guide
 
-- Suggested questions to consider while reading and to be used during the meetup.
+- Suggested questions to consider while reading and to be used during the meetup
+- User can have a better understanding of what topics linked to the book are being discussed in more depth
 
   <details><summary>Discussion Guide Screenshot</summary>
 
@@ -98,12 +91,10 @@ Read and Grow is a website that serves as a hub for a non-fiction reading book c
 
   </details>
 
-<hr> 
-
 ### Meetup Details
 
-  - Details of future meetups including dates and location.
-  - Users are encouraged to get in touch for further details by sending the sign up form. Link to sign up page provided for wasy navigation.
+  - Details of future meetups including dates and location
+  - Users are encouraged to get in touch for further details by sending the sign up form. Link to sign up page provided for easy navigation
 
   <details><summary>Meetup Details Screenshot</summary>
 
@@ -111,7 +102,6 @@ Read and Grow is a website that serves as a hub for a non-fiction reading book c
 
   </details>
 
-<hr> 
 
 ### Sign Up Form
 
@@ -124,7 +114,6 @@ Read and Grow is a website that serves as a hub for a non-fiction reading book c
 
   </details>
 
-<hr> 
 
 ### The Footer
 
@@ -137,19 +126,15 @@ Read and Grow is a website that serves as a hub for a non-fiction reading book c
 
   </details>
 
-<hr> 
-
 ## Future Features
-While the current version of the project is fully functional, I have some exciting features planned for future updates. Here are a few ideas that we didn't have time to implement in this release:
+While the current version of the project is fully functional, I have some exciting features planned for future updates. Here are a few ideas that I didn't have time to implement in this release:
 
 1. **Reading History**:
-   - Additional page with bookcovers and short descriptions of the book. Promotes reading non-fiction books as well as demonstrate what type of books are being chosen for the bookclub.
+   - Additional page with bookcovers and short descriptions of the book. Promotes reading non-fiction books as well as demonstrate what type of books are being chosen for the bookclub
 2. **Online Booking**:
-   - Implement a booking system for in person meetups that cater for limited numebr of people in the set location.
+   - Implement a booking system for in-person meetups that cater for limited numebr of people in the set location
 3. **Blog Section**:
-   - More detailed and personal accounts of in person meetups, including inteesting discussion points, recomendations and photos.
-
-<hr>
+   - More detailed and personal accounts of in-person meetups, including inteesting discussion points, recomendations and photos
 
 ## Testing
 
@@ -158,20 +143,20 @@ While the current version of the project is fully functional, I have some exciti
 |  Feature |  Action | Effect |
 |---|---|---|
 |Logo|Click|Brings back to Home page|
-|Navbar Links|Click on Current Reading|Opens Current Reading page|
+|Navbar Links|Click on Home|Opens Home page|
+|Click on Current Reading|Opens Current Reading page|
 ||Click on Sign up|Opens Sign up page|
-||Click on Contact|Opens Contact page|
-|Contact Page|Fill out the form and submit|A form dump is rendered|
-||Attempt to submit empty Name and Surname|Error pops up in field that's left empty|
-||Attempt to submit empty or incorrect format email|Error pops up in field that's left empty or with incorrect email format|
+||Click on link to Current Reading in About us section|Opens Current Reading page|
+||Click on link to Sign up page at the bottom of Current Reading page|Opens Sign up page|
+|Sign up Page|Fill out the form and submit|A form dump is rendered|
+||Attempt to submit empty Name and Surname|Error pops up in field that was left empty|
+||Attempt to submit empty or incorrect format email|Error pops up in field that was left empty or with incorrect email format|
 |Social Media Links|Test Facebook, X and Instagram links|Facebook, X and Instagram main page opens in a separate tab|
-
-<hr>
 
 ### Browsers 
 
 **Supported Browsers and Devices**
-Our web application is officially tested and supported on the following browsers and devices:
+My web application is tested and supported on the following browsers and devices:
 - Google Chrome (latest version)
 - Safari (latest version)
 
@@ -189,8 +174,6 @@ I conduct manual responsiveness testing on Chrome and Safari to ensure a seamles
 
 **Known Issues**
 - Heading fonts on landscape view were not responsive. I fixed that by setting font size as percentages.
-
-<hr>
 
 ### Lighthouse
 
@@ -222,7 +205,6 @@ Lighthouse tests were executed using the Google Chrome browser's DevTools.
 
 <p align="center"><img src="https://res.cloudinary.com/dugnokxox/image/upload/v1692960667/Screenshot_2023-08-25_at_11.50.29_cfmkxt.png" alt="drawing" width="800"/></p>
 
-<hr>
 
 ### Bugs Resolved
 
@@ -237,8 +219,6 @@ Below is a summary of resolved bugs:
 | #001   | White space under the background image gives an impression as if something is missing from the page | Resolved |
 | #002   | Describe the bug and its impact on the user experience. | Resolved |
 | #003   | Describe the bug and its impact on the user experience. | Resolved |
-| #004   | Describe the bug and its impact on the user experience. | Resolved |
-| #005   | Describe the bug and its impact on the user experience. | Resolved |
 
 **Bug Details**
 Here are the details of the resolved bugs:
@@ -258,17 +238,6 @@ Here are the details of the resolved bugs:
 - **Resolution**: Explain how the bug was resolved, including any code changes or fixes.
 - **Impact**: Discuss the impact of this bug on users and the importance of the fix.
 
-**Bug #004**
-- **Description**: Describe the bug and the steps to reproduce it.
-- **Resolution**: Explain how the bug was resolved, including any code changes or fixes.
-- **Impact**: Discuss the impact of this bug on users and the importance of the fix.
-
-**Bug #005**
-- **Description**: Describe the bug and the steps to reproduce it.
-- **Resolution**: Explain how the bug was resolved, including any code changes or fixes.
-- **Impact**: Discuss the impact of this bug on users and the importance of the fix.
-
-<hr>
 
 #### Bugs Unresolved(if applicable)
 
@@ -279,52 +248,51 @@ Here are the details of the resolved bugs:
 | #003   | Describe the bug and its impact on the user experience. | Unesolved |
 | #004   | Describe the bug and its impact on the user experience. | Unesolved |
 | #005   | Describe the bug and its impact on the user experience. | Unesolved |
-<hr>
 
 ### Validator Testing 
 
 **HTML**
-Code has been validated with the official [W3C validator]https://validator.w3.org/nu/#textarea
+
+Code has been validated with the official [W3C validator](https://validator.w3.org/)
+
 index.html
-  - Error setting width=100% and no-repeat for the book-club image. Fixed by moving styling to css file.
+  - Error setting "width=100%" and "no-repeat" for the book-club image. Fixed by moving styling to css file.
   - Warnings about possible misused of aria-label with the images linked to testimonials
-  - No further errors were returned when passing through the official [W3C validator]
+  - No further errors were returned when passing through the validator
+
 current-reding.html
-  - No errors were found when passing through the official [W3C validator] https://validator.w3.org/nu/#textarea
+  - No errors were found when passing through the validator
+
 signup.html
-  - Errors with misuse of h3 headings in label, fixed
-  - No further errors were returned when passing through the official [W3C validator]
+  - Errors with misuse of headings in the form (does not allow headings withing 'label"). This has been fixed
+  - No further errors were returned when passing through the validator
 
 **CSS**
-  - One warning linked ot texarea - "Imported style sheets are not checked in direct input and file upload modes"
+Code has been validated with the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/)
+  - One warning linked to texarea - "Imported style sheets are not checked in direct input and file upload modes"
   - No errors were found when passing through the official [(Jigsaw) validator]
-
 
 
 ## Deployment
 
-- The site was deployed to GitHub pages. The steps to deploy are as follows: 
-  - In the GitHub repository I navigate to the Settings tab 
+- The site was deployed to GitHub pages. The steps to deploy were as follow: 
+  - In the GitHub repository I navigated to the Settings tab 
   - From the source section drop-down menu, I selected the Main Branch
-  - Once the main branch has been selected, the page automatically refreshed with a detailed ribbon display to indicate the successful deployment. 
+  - Once the main branch was selected, the page automatically refreshed with a detailed ribbon display to indicate the successful deployment. 
 
-The live link can be found here - https://justynath.github.io/read-and-grow/signup.html
+The live link can be found here - [Read and Grow](https://justynath.github.io/read-and-grow/)
 
 
 ## Credits 
 
-In this section you need to reference where you got your content, media and extra help from. 
-It is common practice to use code from other repositories and tutorials, however, it is important to be very specific about these sources to avoid plagiarism. 
-
-You can break the credits section up into Content and Media, depending on what you have included in your project. 
-
 ### Content 
 
-- Na bar and toggle bar were inspired by the Code Institute Love Running walk through project.
-- The use of the flexbox was supported by this [lesson] (https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
+- Navbar and toggle bar were inspired by the Code Institute Love Running walk through project
+- The use of the flexbox was supported by this [lesson](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
 - The icons used were taken from [Font Awesome](https://fontawesome.com/)
 - The fonts were imported from [Google Fonts](https://fonts.google.com/)
 - The colour scheme was inspired by this [article](https://muffingroup.com/blog/calm-color-palette/)
+- The text content was written by me and enhanced by ChatGTP
 
 ### Media
 
@@ -336,3 +304,8 @@ You can break the credits section up into Content and Media, depending on what y
    - Man reading image 2 [atttribution](https://www.freepik.com/free-photo/senior-person-gesturing-isolated_20728512.htm#fromView=search&page=1&position=38&uuid=0a943e5a-72e2-4f31-af82-36739a80e5e8)
    - Women reading image 1 [atttribution](https://www.freepik.com/free-photo/leisure-self-education-hobby-retirement-concept-picture-good-looking-mature-senior-female-striped-sweater-stylish-eyewear-enjoying-reading-living-room-smiling-joyfully_11199979.htm#fromView=search&page=1&position=5&uuid=437c8519-9919-4c2a-8203-74929a13020b)
    - Women reading image 2 [atttribution](https://www.freepik.com/free-photo/front-view-woman-enjoying-book_5123756.htm#fromView=search&page=3&position=8&uuid=34c15c65-001e-4a75-a3b2-8d376e861515)
+
+### Anknowledgement
+
+   - Medale Oluwafemi, my mentor at Code Institute for his guidance
+   - Tutor support at Code Institute for assisting me with solving problems and fixing bugs and errors
