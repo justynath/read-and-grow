@@ -45,7 +45,7 @@ The non-fiction reading book club is for people who enjoy learning about real-li
 
   </details>
 
-### WHo We Are
+### Who We Are
 
 - An information about the book club and its purpose
 - An invitation to check the current reading section with more details about oncoming meetup. It contains a link to allow intuitive navigation on the website
@@ -217,8 +217,8 @@ Below is a summary of resolved bugs:
 | Bug ID | Bug Description | Status |
 |--------|-----------------|--------|
 | #001   | White space under the background image gives an impression as if something is missing from the page | Resolved |
-| #002   | Describe the bug and its impact on the user experience. | Resolved |
-| #003   | Describe the bug and its impact on the user experience. | Resolved |
+| #002   | Blue space under the main image when view on larger screens| Resolved |
+| #003   | The textarea in the form has different width to the other input fields | Resolved |
 
 **Bug Details**
 Here are the details of the resolved bugs:
@@ -229,25 +229,14 @@ Here are the details of the resolved bugs:
 - **Impact**: The user feels reassured that the form is the only item on the page, no information is missing.
 
 **Bug #002**
-- **Description**: Describe the bug and the steps to reproduce it.
-- **Resolution**: Explain how the bug was resolved, including any code changes or fixes.
-- **Impact**: Discuss the impact of this bug on users and the importance of the fix.
+- **Description**: Blue space under the main image when viewing on larger screens
+- **Resolution**: I set the height of the image to 100% (previously I set the div that the image was contained in to 100%)
+- **Impact**: The home page looks esthetically pleasing, the image covers the whole section.
 
 **Bug #003**
-- **Description**: Describe the bug and the steps to reproduce it.
-- **Resolution**: Explain how the bug was resolved, including any code changes or fixes.
-- **Impact**: Discuss the impact of this bug on users and the importance of the fix.
-
-
-#### Bugs Unresolved(if applicable)
-
-| Bug ID | Bug Description | Status |
-|--------|-----------------|--------|
-| #001   | Describe the bug and its impact on the user experience. | Unesolved |
-| #002   | Describe the bug and its impact on the user experience. | Unesolved |
-| #003   | Describe the bug and its impact on the user experience. | Unesolved |
-| #004   | Describe the bug and its impact on the user experience. | Unesolved |
-| #005   | Describe the bug and its impact on the user experience. | Unesolved |
+- **Description**: The textarea in the form has different width to the other input fields. I originally used rows and colums to defive the size.
+- **Resolution**: I used the same css styling for both input fields and textarea. Then added th eheight in a separete syntax declaration
+- **Impact**: It helps the user to understand the form 
 
 ### Validator Testing 
 
