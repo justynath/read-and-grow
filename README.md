@@ -28,7 +28,7 @@ The non-fiction reading book club is for people who enjoy learning about real-li
  - Featured on all three pages, the fully responsive navigation bar includes links to the logo, Home page, Current Reading page, and Sign up page. It is identical on each page to facilitate easy navigation
  - This section allows users to navigate seamlessly between pages on all devices without needing to use the 'back' button
 
-<img src="./assets/readme-assets/navbar.png" alt="navbar">
+<img src="./assets/readme-assets/navbar.png" alt="navbar" width="60%" style="border: 1px solid black">
 
 ### Introduction
 
