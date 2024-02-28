@@ -155,27 +155,24 @@ This report presents the results of Lighthouse testing conducted to assess the p
 Lighthouse tests were executed using the Google Chrome browser's DevTools.
 
 **Test Metrics**
-- Performance Score: 81
-- Accessibility Score: 93
-- Best Practices Score: 92
-- SEO Score: 92
+- Performance Score: 38
+- Accessibility Score: 100
+- Best Practices Score: 100
+- SEO Score: 100
+
+![lighthouse](./assets/readme-assets/lighthouse.png)
+-
 
 **Detailed Results**
-- **Performance**: The website's performance score is 81, indicating good overall performance. However, there is room for improvement to further optimize loading times.
-- **Accessibility**: The website excels in accessibility, with a score of 93, indicating strong adherence to accessibility standards. Minimal accessibility issues were detected.
-- **Best Practices**: The website follows best practices with a score of 92. There are minor areas for improvement, particularly in script loading.
-- **SEO**: SEO performance is strong, with a score of 92. The website has well-optimized meta tags and structured data markup.
+- **Performance**: The website's performance score is 37, currently indicating poor performance. There are a number of suggested improvements to optimise loading time which I am planning to implement further developing the progect.
+- **Accessibility**: The website's accessibility score is 100.
+- **Best Practices**: The website's best practices score is 100. 
+- **SEO**: The website's SEO score is 100.
 
 **Areas for Improvement**
-- Performance can be enhanced by optimizing resource loading and reducing unnecessary requests.
-- Continue monitoring accessibility to maintain a high standard and address any emerging issues.
-- Best practices can be further improved by optimizing script loading and code splitting.
-- Maintain and regularly update meta tags and structured data markup to ensure strong SEO performance.
 
-**Visuals**
-
-<p align="center"><img src="https://res.cloudinary.com/dugnokxox/image/upload/v1692960667/Screenshot_2023-08-25_at_11.50.29_cfmkxt.png" alt="drawing" width="800"/></p>
-
+![lighthouse-diagnostics](./assets/readme-assets/lighthouse-diagnostics.png)
+-
 
 ### Bugs Resolved
 
