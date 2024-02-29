@@ -36,9 +36,9 @@ I want the user to be able to learn more about the book club and why people choo
 ### Structure
 The website is going to have three pages, each with clear purpose:
 
-**Home / Landing page:** The user can learn more about the book club with the welcoming message and 'who we are' section as well as testimonials of book club members.
-**Current Reading page:** The user can find out what the book that is currently beeing read is as well as see the discussion guide with the questions for the chosen book. The user can find out the details about the nearest meetups.
-**Sign up page:** The user can sign up to receive further information about the meetups as well as share the interests and sugest a book.
+- **Home / Landing page:** The user can learn more about the book club with the welcoming message and 'who we are' section as well as testimonials of book club members.
+- **Current Reading page:** The user can find out what the book that is currently beeing read is as well as see the discussion guide with the questions for the chosen book. The user can find out the details about the nearest meetups.
+- **Sign up page:** The user can sign up to receive further information about the meetups as well as share the interests and sugest a book.
 
 Each page has the same **header** with logo and navbar and **footer** with links to social media platforms.
 
@@ -56,13 +56,13 @@ I have selected simple colors for this project but used some color to emphasize 
 -
 
 **Images**
-I used an image showing people gathered together and appearing to have discussions over the books they are holding. This is to create a sense of a positive environment where everyone's ideas and opinions are listened to and respected.
-I used images of smiling people holding books to enhance the sense of the positive impact reading and connecting with others have on our well-being.
-I used an image of a stack of books as the background on the sign-up page. This image is more colorful to indicate the next step a person can take to join the club.
+- I used an image showing people gathered together and appearing to have discussions over the books they are holding. This is to create a sense of a positive environment where everyone's ideas and opinions are listened to and respected.
+- I used images of smiling people holding books with testimonials to enhance the sense of the positive impact reading and connecting with others has on people's well-being.
+- I used an image of a stack of books as the background on the sign-up page. This image is more colorful to prompt a user to take the next step to join the club.
 
 
 ## Technologies
-1. HTML - To create a basic site
+1. HTML - To create the three pages: home, current reading and sign up
 2. CSS - To create a nice, standout front-end and to give a great user experience
 3. Balsamiq - To create a wireframe
 
