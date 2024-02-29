@@ -52,7 +52,7 @@ Wireframe
 **Colour Palette**
 I have selected simple colors for this project but used some color to emphasize certain parts, such as the welcoming message, footer, form, and submit button.
 
-![navbar mobile](./assets/readme-assets/color-palette.png)
+![color-palette](./assets/readme-assets/color-palette.png)
 -
 
 **Images**
@@ -202,36 +202,18 @@ This report presents the results of Lighthouse testing conducted to assess the p
 **Test Execution**
 Lighthouse tests were executed using the Google Chrome browser's DevTools.
 
-#### index.html
----
-
 **Test Metrics**
-- Performance Score: 46
-- Accessibility Score: 100
-- Best Practices Score: 95
-- SEO Score: 100
+
+#### index.html
 
 ![lighthouse](./assets/readme-assets/lighthouse-home.png)
 -
 
-**Detailed Results**
-- **Performance**: The website's performance score is 37, currently indicating poor performance. There are a number of suggested improvements to optimise loading time which I am planning to implement further developing the progect.
-- **Accessibility**: The website's accessibility score is 100.
-- **Best Practices**: The website's best practices score is 95. 
-- **SEO**: The website's SEO score is 100.
-
-**Areas for Improvement**
-
-![lighthouse-home-diagnostics](./assets/readme-assets/lighthouse-home-diagnostics.png)
--
-
 #### current-reading.html
----
 ![lighthouse-current-reading](./assets/readme-assets/lighthouse-current-reading.png)
 -
 
 #### signup.html
----
 
 ![lighthouse-signup](./assets/readme-assets/lighthouse-signup.png)
 -
@@ -275,21 +257,21 @@ Here are the details of the resolved bugs:
 Code has been validated with the official [W3C validator](https://validator.w3.org/)
 
 index.html
-  - Error setting "width=100%" and "no-repeat" for the book-club image. Fixed by moving styling to css file.
-  - Warnings about possible misused of aria-label with the images linked to testimonials
-  - No further errors were returned when passing through the validator
+![validator-index](./assets/readme-assets/validator-index.png)
+-
 
 current-reding.html
-  - No errors were found when passing through the validator
+![validator-current-reading](./assets/readme-assets/validator-current-reading.png)
+-
 
 signup.html
-  - Errors with misuse of headings in the form (does not allow headings withing 'label"). This has been fixed
-  - No further errors were returned when passing through the validator
+![validator-signup](./assets/readme-assets/validator-signup.png)
+-
 
 **CSS**
 Code has been validated with the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/)
-  - One warning linked to texarea - "Imported style sheets are not checked in direct input and file upload modes"
-  - No errors were found when passing through the official [(Jigsaw) validator]
+![validator-style-css](./assets/readme-assets/validator-style-css.png)
+-
 
 
 ## Deployment
