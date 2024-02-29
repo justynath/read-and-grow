@@ -25,6 +25,47 @@ The non-fiction reading book club is for people who enjoy learning about real-li
 - As a user, I want to be able to contact the book club.
 - As a user, I want to have a sense of belonging as soon as I decide to join by sharing my interests and suggesting reading.
 
+## UX
+
+### Strategy
+The aim is to create a website that provides easy access to information and news about the book club, promotes reading non-fiction books, and connects people with similar interests and lifestyles. 
+
+### Scope
+I want the user to be able to learn more about the book club and why people choose to join. In addition, the user would be able to find out about the currently read book and the nearest dates of meetups. The user would also be able to sign up for the book club and share their interests.
+
+### Structure
+The website is going to have three pages, each with clear purpose:
+
+**Home / Landing page:** The user can learn more about the book club with the welcoming message and 'who we are' section as well as testimonials of book club members.
+**Current Reading page:** The user can find out what the book that is currently beeing read is as well as see the discussion guide with the questions for the chosen book. The user can find out the details about the nearest meetups.
+**Sign up page:** The user can sign up to receive further information about the meetups as well as share the interests and sugest a book.
+
+Each page has the same **header** with logo and navbar and **footer** with links to social media platforms.
+
+### Skeleton
+The website is designed to be cleare and simple with the main purpose to encourage people to read more non-fiction and connect with others through shared interests. Features are arranged hiranchically so they follow order of importance.
+
+Wireframe
+
+### Surface
+
+**Colour Palette**
+I have selected simple colors for this project but used some color to emphasize certain parts, such as the welcoming message, footer, form, and submit button.
+
+![navbar mobile](./assets/readme-assets/color-palette.png)
+-
+
+**Images**
+I used an image showing people gathered together and appearing to have discussions over the books they are holding. This is to create a sense of a positive environment where everyone's ideas and opinions are listened to and respected.
+I used images of smiling people holding books to enhance the sense of the positive impact reading and connecting with others have on our well-being.
+I used an image of a stack of books as the background on the sign-up page. This image is more colorful to indicate the next step a person can take to join the club.
+
+
+## Technologies
+1. HTML - To create a basic site
+2. CSS - To create a nice, standout front-end and to give a great user experience
+3. Balsamiq - To create a wireframe
+
 ## Features 
 
 ### Navbar 
