@@ -374,14 +374,6 @@ footer {
 
 /* Large devices (laptops and desktops, 992px and up) */
 @media screen and (min-width: 992px) {
-    
-    body {
-        font-size: 1.1em;
-    }
-
-    h1, h2 {
-        font-size: 1.5em;
-    }
 
     #menu a:hover {
         border-bottom: 1px solid #51504f;

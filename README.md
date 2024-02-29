@@ -2,6 +2,8 @@
 ## Overview
 Read and Grow is a website that serves as a hub for a non-fiction reading book club, offering information on upcoming meetups and current reading selections. The aim is to promote non-fiction reading across various topics and cultivate a community of like-minded individuals committed to lifelong learning. The website caters to current members of the book club community, as well as anyone interested in reading or starting to read non-fiction books and engaging in post-reading discussions. The book club hosts both online meetups and in-person gatherings in central London.
 
+[live page](https://justynath.github.io/read-and-grow/)
+
 ![responsiveness](./assets/readme-assets/responsiveness.png)
 -
 
