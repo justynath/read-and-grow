@@ -32,8 +32,11 @@ The non-fiction reading book club is for people who enjoy learning about real-li
 
 ![navbar](./assets/readme-assets/navbar.png)
 -
+*Navbar*
+
 ![navbar mobile](./assets/readme-assets/navbar-mobile.png)
 -
+*Navbar on mobile*
 
 ### Introduction
 
@@ -61,8 +64,8 @@ The non-fiction reading book club is for people who enjoy learning about real-li
 
 ### Current Reading
 
-- Introduction of a new book "The Psychology of Money" with an image of the cover and short description of what the book is about.
-- User is able to check what book is being discussed in the coming meetups
+- Introduction of a new book "The Psychology of Money" with an image of the cover and short description of what the book is about
+- User is able to check what book is being discussed in the coming meetups. The link to amazon website where a user could purchase the book is included and opens in a separate tab
 
 ![current reading](./assets/readme-assets/current-reading.png)
 -
@@ -93,7 +96,7 @@ The non-fiction reading book club is for people who enjoy learning about real-li
 
 ### The Footer
 
-  - The footer section includes links to the relevant social media sites for Read and Grow. The links will open to a new tab to allow easy navigation for the user. 
+  - The footer section includes links to the relevant social media sites for Read and Grow. The links will open to a new tab to allow easy navigation for the user
   - The footer is valuable to the user as it encourages them to keep connected via social media
 
 ![footer](./assets/readme-assets/footer.png)
@@ -156,24 +159,38 @@ This report presents the results of Lighthouse testing conducted to assess the p
 **Test Execution**
 Lighthouse tests were executed using the Google Chrome browser's DevTools.
 
+#### index.html
+---
+
 **Test Metrics**
-- Performance Score: 38
+- Performance Score: 46
 - Accessibility Score: 100
-- Best Practices Score: 100
+- Best Practices Score: 95
 - SEO Score: 100
 
-![lighthouse](./assets/readme-assets/lighthouse.png)
+![lighthouse](./assets/readme-assets/lighthouse-home.png)
 -
 
 **Detailed Results**
 - **Performance**: The website's performance score is 37, currently indicating poor performance. There are a number of suggested improvements to optimise loading time which I am planning to implement further developing the progect.
 - **Accessibility**: The website's accessibility score is 100.
-- **Best Practices**: The website's best practices score is 100. 
+- **Best Practices**: The website's best practices score is 95. 
 - **SEO**: The website's SEO score is 100.
 
 **Areas for Improvement**
 
-![lighthouse-diagnostics](./assets/readme-assets/lighthouse-diagnostics.png)
+![lighthouse-home-diagnostics](./assets/readme-assets/lighthouse-home-diagnostics.png)
+-
+
+#### current-reading.html
+---
+![lighthouse-current-reading](./assets/readme-assets/lighthouse-current-reading.png)
+-
+
+#### signup.html
+---
+
+![lighthouse-signup](./assets/readme-assets/lighthouse-signup.png)
 -
 
 ### Bugs Resolved
@@ -263,7 +280,7 @@ The live link can be found here - https://justynath.github.io/read-and-grow/
    - Women reading image 1 [atttribution](https://www.freepik.com/free-photo/leisure-self-education-hobby-retirement-concept-picture-good-looking-mature-senior-female-striped-sweater-stylish-eyewear-enjoying-reading-living-room-smiling-joyfully_11199979.htm#fromView=search&page=1&position=5&uuid=437c8519-9919-4c2a-8203-74929a13020b)
    - Women reading image 2 [atttribution](https://www.freepik.com/free-photo/front-view-woman-enjoying-book_5123756.htm#fromView=search&page=3&position=8&uuid=34c15c65-001e-4a75-a3b2-8d376e861515)
 
-### Anknowledgement
+### Anknowledgements
 
    - Medale Oluwafemi, my mentor at Code Institute for his guidance
    - Tutor support at Code Institute for assisting me with solving problems and fixing bugs and errors
