@@ -45,7 +45,9 @@ Each page has the same **header** with logo and navbar and **footer** with links
 ### Skeleton
 The website is designed to be cleare and simple with the main purpose to encourage people to read more non-fiction and connect with others through shared interests. Features are arranged hiranchically so they follow order of importance.
 
-Wireframe
+Wireframes
+![Read and Grow wireframes](./assets/readme-assets/read-and-grow.pdf)
+-
 
 ### Surface
 
