@@ -2,8 +2,10 @@
 ## Overview
 Read and Grow is a website that serves as a hub for a non-fiction reading book club, offering information on upcoming meetups and current reading selections. The aim is to promote non-fiction reading across various topics and cultivate a community of like-minded individuals committed to lifelong learning. The website caters to current members of the book club community, as well as anyone interested in reading or starting to read non-fiction books and engaging in post-reading discussions. The book club hosts both online meetups and in-person gatherings in central London.
 
-## Planning
+![responsiveness](./assets/readme-assets/responsiveness.png)
+-
 
+## Planning
 
 ### Aim
 The website aims to cultivate a community of readers interested in learning and critical thinking. Through easy navigation and interactive features, it encourages users to explore new knowledge and perspectives, fostering the sharing of ideas and individual interpretations of written texts. Ultimately, the goal is to ignite a passion for lifelong learning and serve as a valuable resource for those seeking to broaden their understanding through non-fiction reading.
@@ -28,7 +30,6 @@ The non-fiction reading book club is for people who enjoy learning about real-li
  - Featured on all three pages, the fully responsive navigation bar includes links to the logo, Home page, Current Reading page, and Sign up page. It is identical on each page to facilitate easy navigation
  - This section allows users to navigate seamlessly between pages on all devices without needing to use the 'back' button
 
----
 ![navbar](./assets/readme-assets/navbar.png)
 -
 ![navbar mobile](./assets/readme-assets/navbar-mobile.png)
@@ -39,16 +40,14 @@ The non-fiction reading book club is for people who enjoy learning about real-li
 - An image of people holding books and engaged in discussion. This aims to enhance the user experience, evoke feelings of relaxation, and foster a sense of belonging and community
 - A welcoming sentence to summarise who this book club is for "lifelong learning lovers"
 
----
 ![introduction](./assets/readme-assets/introduction.png)
--
+
 
 ### Who We Are
 
 - An information about the book club and its purpose
 - An invitation to check the current reading section with more details about oncoming meetup. It contains a link to allow intuitive navigation on the website
 
----
 ![who we are](./assets/readme-assets/who-we-are.png)
 -
 
@@ -57,7 +56,6 @@ The non-fiction reading book club is for people who enjoy learning about real-li
 - Quotes of people that have participared in book club meetups
 - Each testimonial contains a photo of a person smiling and holding a book. This is done to provide authenticity, convey a positive approach, and cultivate a sense of happiness associated with learning and being part of a community
 
----
 ![testimonials](./assets/readme-assets/testimonials.png)
 -
 
@@ -66,7 +64,6 @@ The non-fiction reading book club is for people who enjoy learning about real-li
 - Introduction of a new book "The Psychology of Money" with an image of the cover and short description of what the book is about.
 - User is able to check what book is being discussed in the coming meetups
 
----
 ![current reading](./assets/readme-assets/current-reading.png)
 -
 
@@ -75,7 +72,6 @@ The non-fiction reading book club is for people who enjoy learning about real-li
 - Suggested questions to consider while reading and to be used during the meetup
 - User can have a better understanding of what topics linked to the book are being discussed in more depth
 
----
 ![discussion guide](./assets/readme-assets/discussion-guide.png)
 -
 
@@ -84,7 +80,6 @@ The non-fiction reading book club is for people who enjoy learning about real-li
   - Details of future meetups including dates and location
   - Users are encouraged to get in touch for further details by sending the sign up form. Link to sign up page provided for easy navigation
 
----
 ![meetup details](./assets/readme-assets/meetup-details.png)
 -
 
@@ -93,7 +88,6 @@ The non-fiction reading book club is for people who enjoy learning about real-li
   - An interactive sign up form to enable potential memebers to get in touch and receive further information about the book club and meetups
   - Includes fields for name, email and a message
 
----
 ![signup form](./assets/readme-assets/signup-form.png)
 -
 
@@ -102,7 +96,6 @@ The non-fiction reading book club is for people who enjoy learning about real-li
   - The footer section includes links to the relevant social media sites for Read and Grow. The links will open to a new tab to allow easy navigation for the user. 
   - The footer is valuable to the user as it encourages them to keep connected via social media
 
----
 ![footer](./assets/readme-assets/footer.png)
 -
 
@@ -169,7 +162,6 @@ Lighthouse tests were executed using the Google Chrome browser's DevTools.
 - Best Practices Score: 100
 - SEO Score: 100
 
----
 ![lighthouse](./assets/readme-assets/lighthouse.png)
 -
 
@@ -181,7 +173,6 @@ Lighthouse tests were executed using the Google Chrome browser's DevTools.
 
 **Areas for Improvement**
 
----
 ![lighthouse-diagnostics](./assets/readme-assets/lighthouse-diagnostics.png)
 -
 
