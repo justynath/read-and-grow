@@ -2,7 +2,7 @@
 ## Overview
 Read and Grow is a website that serves as a hub for a non-fiction reading book club, offering information on upcoming meetups and current reading selections. The aim is to promote non-fiction reading across various topics and cultivate a community of like-minded individuals committed to lifelong learning. The website caters to current members of the book club community, as well as anyone interested in reading or starting to read non-fiction books and engaging in post-reading discussions. The book club hosts both online meetups and in-person gatherings in central London.
 
-[live page](https://justynath.github.io/read-and-grow/)
+[live link](https://justynath.github.io/read-and-grow/)
 
 ![responsiveness](./assets/readme-assets/responsiveness.png)
 -
@@ -10,7 +10,7 @@ Read and Grow is a website that serves as a hub for a non-fiction reading book c
 ## Planning
 
 ### Aim
-The website aims to cultivate a community of readers interested in learning and critical thinking. Through easy navigation and interactive features, it encourages users to explore new knowledge and perspectives, fostering the sharing of ideas and individual interpretations of written texts. Ultimately, the goal is to ignite a passion for lifelong learning and serve as a valuable resource for those seeking to broaden their understanding through non-fiction reading.
+The website aims to cultivate a community of readers interested in learning and critical thinking. Through easy navigation and interactive features, it encourages users to explore new knowledge and opportunities to share ideas and individual interpretations of written texts. Ultimately, the goal is to ignite a passion for lifelong learning and serve as a valuable resource for those seeking to broaden their understanding through non-fiction reading.
 
 ### Targeted Audience
 The non-fiction reading book club is for people who enjoy learning about real-life topics. It's open to anyone curious about history, science, biographies, and more. The book club encourages keen readers, professionals looking to expand their knowledge, or just people interested in discussing real-world issues to join the community. It's a place where they can come together to explore interesting ideas and stories, and to connect with others who share a passion for learning and thinking critically.
@@ -43,7 +43,7 @@ The website is going to have three pages, each with clear purpose:
 Each page has the same **header** with logo and navbar and **footer** with links to social media platforms.
 
 ### Skeleton
-The website is designed to be cleare and simple with the main purpose to encourage people to read more non-fiction and connect with others through shared interests. Features are arranged hiranchically so they follow order of importance.
+The website is designed to be clear and simple, with the main purpose of encouraging people to read more non-fiction and connect with others through shared interests. Features are arranged hierarchically to follow the order of importance.
 
 [Read and Grow Wireframes](./assets/readme-assets/read-and-grow.pdf)
 -
@@ -51,7 +51,7 @@ The website is designed to be cleare and simple with the main purpose to encoura
 ### Surface
 
 **Colour Palette**
-I have selected simple colors for this project but used some color to emphasize certain parts, such as the welcoming message, footer, form, and submit button.
+I have selected simple colors for this project but used some brighter colors to emphasize certain parts, such as the welcoming message, footer, form, and submit button.
 
 ![color-palette](./assets/readme-assets/color-palette.png)
 -
@@ -109,7 +109,7 @@ I have selected simple colors for this project but used some color to emphasize 
 ### Current Reading
 
 - Introduction of a new book "The Psychology of Money" with an image of the cover and short description of what the book is about
-- User is able to check what book is being discussed in the coming meetups. The link to amazon website where a user could purchase the book is included and opens in a separate tab
+- User is able to check what book is being discussed in the coming meetups. The link to Amazon website where a user can purchase the book is included and opens in a separate tab
 
 ![current reading](./assets/readme-assets/current-reading.png)
 -
@@ -134,6 +134,7 @@ I have selected simple colors for this project but used some color to emphasize 
 
   - An interactive sign up form to enable potential memebers to get in touch and receive further information about the book club and meetups
   - Includes fields for name, email and a message
+  - Additionally and optionally the user can share their interests and suggest a book for future reading. This gives the user the sense of being part of the community from the start
 
 ![signup form](./assets/readme-assets/signup-form.png)
 -
@@ -150,11 +151,11 @@ I have selected simple colors for this project but used some color to emphasize 
 While the current version of the project is fully functional, I have some exciting features planned for future updates. Here are a few ideas that I didn't have time to implement in this release:
 
 1. **Reading History**:
-   - Additional page with bookcovers and short descriptions of the book. Promotes reading non-fiction books as well as demonstrate what type of books are being chosen for the bookclub
+   - Additional page with book covers and short descriptions of the books. Promotes reading non-fiction books as well as demonstrates what types of books are being chosen for the book club
 2. **Online Booking**:
-   - Implement a booking system for in-person meetups that cater for limited numebr of people in the set location
+   - Implement a booking system for in-person meetups that caters to a limited number of people in the set location
 3. **Blog Section**:
-   - More detailed and personal accounts of in-person meetups, including inteesting discussion points, recomendations and photos
+   - More detailed and personal accounts of in-person meetups, including interesting discussion points, recommendations, and photos
 
 ## Testing
 
@@ -237,25 +238,25 @@ Below is a summary of resolved bugs:
 Here are the details of the resolved bugs:
 
 **Bug #001**
-- **Description**: White space under the background image despite seting background-image to cover.
-- **Resolution**: I added display flex to the main sectiona and set it as c.
-- **Impact**: The user feels reassured that the form is the only item on the page, no information is missing.
+- **Description**: White space under the background image despite setting background-image to cover
+- **Resolution**: I added display: flex to the main section and set the direction to column
+- **Impact**: The user feels reassured that the form is the only item on the page; no information is missing
 
 **Bug #002**
 - **Description**: Blue space under the main image when viewing on larger screens
-- **Resolution**: I set the height of the image to 100% (previously I set the div that the image was contained in to 100%)
-- **Impact**: The home page looks esthetically pleasing, the image covers the whole section.
+- **Resolution**: I set the height of the image to 100% (previously, I set the div that the image was contained in to 100%)
+- **Impact**:  The home page looks aesthetically pleasing; the image covers the whole section
 
 **Bug #003**
-- **Description**: The textarea in the form has different width to the other input fields. I originally used rows and colums to defive the size.
-- **Resolution**: I used the same css styling for both input fields and textarea. Then added th eheight in a separete syntax declaration
-- **Impact**: It helps the user to understand the form 
+- **Description**: The textarea in the form has a different width than the other input fields. I originally used rows and columns to define the size
+- **Resolution**: I used the same CSS styling for both input fields and textarea. Then added the height in a separate syntax declaration
+- **Impact**: It helps the user understand the form
 
 ### Validator Testing 
 
 **HTML**
 
-Code has been validated with the official [W3C validator](https://validator.w3.org/)
+Code has been validated with the official W3C validator.
 
 index.html
 ![validator-index](./assets/readme-assets/validator-index.png)
@@ -270,8 +271,7 @@ signup.html
 -
 
 **CSS**
-Code has been validated with the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/)
-![validator-style-css](./assets/readme-assets/validator-style-css.png)
+Code has been validated with the official (Jigsaw) validator
 -
 
 

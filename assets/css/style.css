@@ -136,6 +136,7 @@ main {
     display: none;
 }
 
+/* Use flexbox to makes this section responsive */
 .quotes {
     display: flex;
     flex-wrap: wrap;
@@ -236,7 +237,6 @@ main {
 }
 
 /* Signup Page */
-
 #signup {
     background-image: url("../images/stack-of-books.webp");
     background-size: cover;
@@ -281,7 +281,7 @@ main {
     background-color: #ef9329;
     color: #0d0c0c;
     border-color: #0d0c0c;
-    box-shadow: 2px 2px 2px #51504f;
+    box-shadow: 2px 2px 2px 2px #51504f;
 }
 
 /* Footer */
@@ -361,14 +361,10 @@ footer {
     }
 
     /* Form */
-    #signup {
-        background-position: center;
-    }
 
     #signup-form {
         max-width: 500px;
         margin: 5% 0 0 12%;
-
     }
 }
 
